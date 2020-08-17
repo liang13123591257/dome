@@ -1,0 +1,75 @@
+[{
+    "title1": "华为 Mate 30 Pro",
+    "title2": "华为首款旗舰 5G SoC 芯片",
+    "bsrc": "https://img2.yaya.cn/newstatic/1383/0150b32fe38f770b.jpg.webp",
+    "msrcarr": [{
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190512230954370.jpg.webp",
+        "title": "华为 P30 全网通版",
+        "price": "￥3688"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191209202332165.jpg.webp",
+        "title": "iPhone 11 Pro Max 全网通版",
+        "price": "￥9130"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190723161425614.jpg.webp",
+        "title": "华为 荣耀9X 全网通版",
+        "price": "￥1799"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191015171720571.jpg.webp",
+        "title": "一加手机 7T 全网通版",
+        "price": "￥3199"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191209195607418.jpg.webp",
+        "title": "华为 nova 5 Pro 全网通版",
+        "price": "￥2399"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191126095044477.jpg.webp",
+        "title": "vivo NEX 3 5G版",
+        "price": "￥4998"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191105155701736.jpg.webp",
+        "title": "小米 CC9 Pro 全网通版",
+        "price": "￥2699"
+    }]
+}, {
+    "title1": "苹果 AirPods Pro",
+    "title2": "主动降噪",
+    "bsrc": "https://img2.yaya.cn/newstatic/1378/0150b23731c7677b.jpg.webp",
+    "msrcarr": [{
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191211144158768.jpg.webp",
+        "title": "AirPods Pro 超薄液态硅胶 保护壳",
+        "price": "￥59"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191126094557106.jpg.webp",
+        "title": "AirPods 2代 蓝牙耳机",
+        "price": "￥1099"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190326123353382.jpg.webp",
+        "title": "AirPods 原装无线充电盒",
+        "price": "￥659"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20180515111439491.jpg.webp",
+        "title": "黑鱼 无线充电器",
+        "price": "￥129"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190423143624514.jpg.webp",
+        "title": "全汉 双口 充电器",
+        "price": "￥39"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190415134336753.jpg.webp",
+        "title": "咪咕 漫威正版 Airpods 保护套",
+        "price": "￥59"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191011190303460.jpg.webp",
+        "title": "Mophie 三合一无线充电器",
+        "price": "￥899"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190428101918661.jpg.webp",
+        "title": "洛克 苹果Lightning 弹簧伸缩数据线1.5m",
+        "price": "￥49"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190428101443735.jpg.webp",
+        "title": "苹果内配原装数据线",
+        "price": "￥99"
+    }]
+}]

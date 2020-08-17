@@ -1,0 +1,155 @@
+[{
+    "b": "手机精选",
+    "span": "大牌不一定贵",
+    "bsrc": "https://img2.yaya.cn/newstatic/1383/0150af59edaf9b1f.jpg.webp",
+    "marr": [{
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191009174152488.jpg.webp",
+        "title": "iPhone 11 Pro 全网通",
+        "price": "￥8430"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191209202257675.jpg.webp",
+        "title": "华为 Mate 30 全网通5G版",
+        "price": "￥4999"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191203135001394.jpg.webp",
+        "title": "华为 nova 6 全网通5G版",
+        "price": "￥3799"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191015171717132.jpg.webp",
+        "title": "一加手机 7T 全网通版",
+        "price": "￥3199"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190821095956529.jpg.webp",
+        "title": "三星 Galaxy Note 10+ 5G版",
+        "price": "￥7999"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191105155701736.jpg.webp",
+        "title": "小米 CC9 Pro 全网通版",
+        "price": "￥2699"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191008113759261.jpg.webp",
+        "title": "OPPO Reno 2 全网通版",
+        "price": "￥2998"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191216203128621.jpg.webp",
+        "title": "vivo X30 全网通5G版",
+        "price": "￥3298"
+    }]
+}, 
+
+{
+    "b": "电脑办公",
+    "span": "优选品牌 好品如潮",
+    "bsrc": "https://img2.yaya.cn/newstatic/1377/0150b0121f7009ad.jpg.webp",
+    "marr": [{
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190603170715881.jpg.webp",
+        "title": "华硕 飞行堡垒7",
+        "price": "￥6399"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/2019061309311847.jpg.webp",
+        "title": "MacBook Air 2017款 128G",
+        "price": "￥5699"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191108111258948.jpg.webp",
+        "title": "昕科 超大加热暖桌垫鼠标垫 智能款Pro",
+        "price": "￥89"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190830162812840.jpg.webp",
+        "title": "小米 RedmiBook 14英寸",
+        "price": "￥4499"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190321114110608.jpg.webp",
+        "title": "亚马逊 Kindle 电子书阅读器 青春版",
+        "price": "￥658"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190829142246824.jpg.webp",
+        "title": "戴尔 灵越5000 14英寸",
+        "price": "￥4599"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20160524114754237.jpg.webp",
+        "title": "三星 27英寸 曲面显示器",
+        "price": "￥989"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190529164151488.jpg.webp",
+        "title": "搜狗智能录音笔C1",
+        "price": "￥398"
+    }]
+}, 
+
+{
+    "b": "配件精选",
+    "span": "精挑细选 好而不贵",
+    "bsrc": "https://img2.yaya.cn/newstatic/1383/0150afb850205c46.jpg.webp",
+    "marr": [{
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190930114727781.jpg.webp",
+        "title": "乐物 10000mAh 双向快充移动电源",
+        "price": "￥99"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190426165047957.jpg.webp",
+        "title": "乐物 MFI认证Lightning 数据线",
+        "price": "￥99"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/2019101013551439.jpg.webp",
+        "title": "乐物 一拖三 编织充电线",
+        "price": "￥49"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20180515111439491.jpg.webp",
+        "title": "黑鱼 无线充电器",
+        "price": "￥129"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20170518194056441.jpg.webp",
+        "title": "华为 原装 18W 充电套装",
+        "price": "￥69"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20181106152619754.jpg.webp",
+        "title": "华为三脚架自拍杆",
+        "price": "￥119"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190927181001548.jpg.webp",
+        "title": "乐物 iPhone 11 3D钢化膜",
+        "price": "￥169"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190925100413331.jpg.webp",
+        "title": "华为40W超级快充移动电源",
+        "price": "￥369"
+    }]
+}, 
+
+{
+    "b": "智能产品",
+    "span": "够潮购好玩",
+    "bsrc": "https://img2.yaya.cn/newstatic/1382/0150b04da6bf105f.jpg.webp",
+    "marr": [{
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191212181242726.jpg.webp",
+        "title": "斗禾家用桌面暖风机",
+        "price": "￥199"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191024110551266.jpg.webp",
+        "title": "小度在家1C",
+        "price": "￥499"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190919225835469.jpg.webp",
+        "title": "华为 超级快充无线车充",
+        "price": "￥299"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191008180409315.jpg.webp",
+        "title": "大疆手持云台3",
+        "price": "￥799"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20191021172205684.jpg.webp",
+        "title": "华为手环4",
+        "price": "￥199"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190708175405863.jpg.webp",
+        "title": "盈佳机器狗",
+        "price": "￥199"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190809112911641.jpg.webp",
+        "title": "菠萝君 Booster E 按摩枪",
+        "price": "￥399"
+    }, {
+        "msrc": "https://img2.yaya.cn/pic/product/440x440/20190816102805987.jpg.webp",
+        "title": "FreeLace 蓝牙耳机",
+        "price": "￥399"
+    }]
+}]

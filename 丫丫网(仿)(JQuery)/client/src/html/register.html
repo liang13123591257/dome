@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/antd.2b11a476118733c206ed.css">
+    <link rel="stylesheet" href="../css/app.2b11a476118733c206ed.css">
+    <link rel="stylesheet" href="../css/69.2b11a476118733c206ed.css">
+    <style>
+        .vivwred {
+            border: 1px solid red;
+        }
+    </style>
+    <script src="../lib/jquery-3.4.1.js"></script>
+    <script src="../lib/captcha.js"></script>
+    <script src="../lib/md5.js"></script>
+    <script src="../js/register.js"></script>
+
+</head>
+
+<body>
+    <div id="app" class="w-960" data-v-0ece79e6="">
+        <header data-v-0ece79e6="">
+        </header>
+        <div class="wrapper view" data-v-778475ee="" data-v-0ece79e6="">
+            <div class="login-header wrapper flex flex-align-center" data-v-778475ee="">
+                <a href="/" data-v-778475ee="">
+                    <img src="https://img2.yaya.cn/newstatic/1380/0139384ba76d3da6.png" height="50" alt="丫丫网"
+                        data-v-778475ee="">
+                </a>
+                <div class="login-welcome main-color" data-v-778475ee="" style="color: orange;">账号注册</div>
+            </div>
+            <div class="login border" data-v-778475ee="">
+                <div class="login-item border-bottom flex flex-align-center" data-v-778475ee="" id="uname">
+                    <input type="text" placeholder="请输入3-8位用户名，不支持中文及特殊符号" value="" class="login-input flex-child-grow"
+                        id="username" data-v-778475ee="">
+
+                </div>
+                <div id="pwdA" class="login-item border-bottom flex flex-align-center" data-v-778475ee="">
+                    <input type="password" placeholder="请输入6-16位密码" value="" class="login-input flex-child-grow"
+                        id="passwordA" data-v-778475ee="">
+
+                </div>
+                <div id="pwdB" class="login-item border-bottom flex flex-align-center" data-v-778475ee="">
+                    <input type="password" placeholder="二次确认密码" value="" id="passwordB"
+                        class="login-input flex-child-grow" data-v-778475ee="">
+                </div>
+                <div id="ph" class="login-item border-bottom flex flex-align-center" data-v-778475ee="">
+                    <input type="text" placeholder="请输入手机号码" value="" id="phone" class="login-input flex-child-grow"
+                        data-v-778475ee="">
+                </div>
+                <div id="yz" class="login-item border-bottom flex flex-align-center" data-v-778475ee="">
+                    <input type="text" placeholder="图形验证码" value="" id="txyz" class="login-input flex-child-grow"
+                        data-v-778475ee="">
+                    <canvas width="200" height="50" id="captcha2"></canvas>
+                </div>
+                <button id="btn"
+                    style="background: skyblue;width: 150px; height: 30px; border-radius: 15px;">注册</button>
+            </div>
+        </div>
+
+</body>
+
+</html>

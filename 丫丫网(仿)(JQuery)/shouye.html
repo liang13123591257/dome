@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="baidu-site-verification" content="" />
+  <title data-vue-meta="true">丫丫网 - 首页</title>
+  <meta data-vue-meta="true" data-vmid="description" name="description"
+    content="丫丫网,丫丫手机网是专业的O2O数码网上商城，西南地区连锁实体专卖店，主营:手机、平板电脑、笔记本、数码产品、生活家电、手机周边配件，电脑周边配件数千种产品,集零售批发为一体,为您提供质优价廉的手机服务。">
+  <meta data-vue-meta="true" data-vmid="keywords" name="keywords"
+    content="丫丫网,丫丫手机网,yy手机网,yy网,昆明手机网,yy,丫丫,云南手机网,丫丫网,昆明丫丫手机网,丫丫手机网 昆明,YY手机网,昆明手机批发,云南手机批发,昆明数码,数码手机网,昆明电脑,手机维修,智能手机,港行手机,大陆行货手机,手机资讯">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://img2.yaya.cn/newstatic/1382/01393869c0bf73e3.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="shortcut icon" href="https://img2.yaya.cn/newstatic/1382/013937f858ca0be1.png">
+  <script src="./client/src/lib/jquery-3.4.1.js"></script>
+  <script src="./client/src/js/shouye.js"></script>
+  <script src="./client/src/html/details.html"></script>
+  <style id="theme-style-tag">
+    :root {
+      --color-primary: #F9B548;
+      --color-primary-fg: #000;
+      --color-selected: #4FBAA1;
+      --color-highlight: #FB4E44;
+      --color-price: #FB4E44;
+      --color-tag: #F9B548;
+      --color-tips: #faf2d9;
+      --color-tips-fg: #f1690b;
+      --color-star: #fd9712;
+      --color-vip: #bea68d;
+      --color-safe: #4fbaa1;
+      --color-warn: #f1690b;
+      --color-danger: #FB4E44;
+      --color-calm: #1890ff;
+      --color-hot: #f21c1c;
+      --color-link: #333;
+      --color-border: #dfdfdf;
+      --color-body: #333;
+      --color-body-bg: #fff;
+      --color-im-msg-bg: #ffe62d;
+      --color-im-msg-fg: #000;
+      --color-stock1: #f21c1c;
+      --color-stock2: #7b0b0b;
+      --color-stock3: #78af77;
+      --color-stock4: #9c9c9c;
+      --color-stock5: #fba019;
+      --color-stock7: #78AF77;
+      --color-stock8: #9c9c9c;
+      --color-stock10: #8965ba;
+      --color-stock11: #f6939b;
+      --color-white: #fff;
+      --color-gray1: #fafafa;
+      --color-gray2: #f5f5f5;
+      --color-gray3: #f3f3f3;
+      --color-gray4: #e8e8e8;
+      --color-gray5: #dfdfdf;
+      --color-gray6: #d9d9d9;
+      --color-gray7: #bfbfbf;
+      --color-gray8: #9c9c9c;
+      --color-gray9: #8c8c8c;
+      --color-gray10: #666;
+      --color-gray11: #595959;
+      --color-gray12: #333;
+      --color-gray13: #262626;
+      --color-black: #000;
+      --gradient-pc-vip-progress: linear-gradient(45deg, #ffba02, #ffde05);
+      --gradient-m-header-bg: linear-gradient(90deg, #FEC52E, #FAA52E);
+      --size-pc-main-logo-height: 50;
+      --size-pc-home-logo-height: 55;
+    }
+  </style>
+
+  <link rel="stylesheet" href="client/src/css/antd.2b11a476118733c206ed.css">
+  <link rel="stylesheet" href="client/src/css/app.2b11a476118733c206ed.css">
+  <link rel="stylesheet" href="client/src/css/69.2b11a476118733c206ed.css">
+  <link rel="stylesheet" href="./client/src/css/shouye.css">
+</head>
+<style>
+  #imtop {
+    width: 1315px;
+    background: #b4004a;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  #imtop img {
+    margin-left: 75px;
+  }
+
+  #imtop span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 16px;
+    background: pink;
+    opacity: 0.8;
+    color: #f5f515;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+  }
+
+  .right-info {
+    margin-top: 480px;
+  }
+
+  #img_l {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 240px;
+    left: -220px;
+  }
+
+  #img_l img {
+    width: 300px;
+    height: 480px;
+    position: absolute;
+    top: 9px;
+    left: -5px;
+  }
+
+  #img_r {
+    width: 80px;
+    height: 500px;
+    position: absolute;
+    top: 240px;
+    right: 0px;
+    overflow: hidden;
+  }
+
+  #img_r img {
+    width: 300px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    right: -220px;
+  }
+
+  #banner {
+    width: 760px;
+    height: 480px;
+    overflow: hidden;
+    position: absolute;
+    top: 249px;
+    left: 295px;
+  }
+
+  #banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s all;
+  }
+
+  #list {
+    position: absolute;
+    top: 700px;
+    left: 540px;
+  }
+
+  #list li {
+    margin: 0 10px;
+    float: left;
+    display: block;
+    width: 25px;
+    height: 5px;
+    opacity: 0.7;
+    background: blue;
+  }
+
+  #piece {
+    width: 50px;
+    height: 80px;
+    background: #ccc;
+    opacity: 0.4;
+    color: blue;
+    text-align: center;
+    line-height: 80px;
+    font-size: 60px;
+    position: absolute;
+    top: 470px;
+    left: 295px;
+  }
+
+  #next {
+    width: 50px;
+    height: 80px;
+    background: #ccc;
+    opacity: 0.4;
+    color: blue;
+    text-align: center;
+    line-height: 80px;
+    font-size: 60px;
+    position: absolute;
+    top: 470px;
+    left: 1005px;
+  }
+</style>
+
+<body class="yaya">
+  <div id="imtop">
+    <img src="https://img2.ch999img.com/newstatic/1526/0156f8a4d83dfbda.png.webp" alt="">
+    <span>×</span>
+  </div>
+  <div id="img_l">
+    <img src="https://img2.yaya.cn/newstatic/1382/0156ccf46d141375.jpg.webp" alt="">
+  </div>
+  <div id="img_r">
+    <img src="https://img2.yaya.cn/newstatic/1381/0156c60095bbfde3.jpg.webp" alt="">
+  </div>
+  <div id="banner"></div>
+  <ul id="list" class="slick-dots" style="display: block;">
+    <li class="slick-active"></li>
+    <li class=""></li>
+    <li class=""></li>
+    <li class=""></li>
+    <li class=""></li>
+    <li class=""></li>
+  </ul>
+  <div id="piece">
+    <</div> <div id="next">>
+  </div>
+  <div id="app" data-server-rendered="true" data-v-0ece79e6>
+    <div data-v-6775bc76 data-v-0ece79e6>
+      <!---->
+      <div class="top-bar" data-v-6775bc76>
+        <div class="wrapper flex flex-align-center flex-justify-between full-height" data-v-6775bc76>
+          <div class="full-height flex flex-align-center flex-justify-between" data-v-6775bc76>
+            <div class="relative" data-v-7c8b3675 data-v-6775bc76>
+              <div class="inline-block full-height pointer" data-v-7c8b3675>
+                <div class="top-city flex flex-center grey-8" data-v-7c8b3675 data-v-6775bc76><svg aria-hidden="true"
+                    width="12" height="16" viewBox="0 0 384 512" focusable="false" class="mr-5 fa-icon" data-v-6775bc76>
+                    <path
+                      d="M172.3 501.7c-145.3-210.6-172.3-232.3-172.3-309.7 0-106 86-192 192-192s192 86 192 192c0 77.4-27 99-172.3 309.7-9.5 13.8-29.9 13.8-39.5 0zM192 272c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80z">
+                    </path>
+                  </svg> <span data-v-7c8b3675 data-v-6775bc76>天河区</span></div>
+              </div>
+              <!---->
+            </div>
+            <div data-v-6775bc76="" class="grey-8"><span data-v-6775bc76="">Hi，欢迎来丫丫！</span> <a data-v-6775bc76=""
+                href="./client/src/html/login.html" rel="nofollow" class="mr-5 grey-8">登录</a> <a data-v-6775bc76=""
+                href="./client/src/html/register.html" rel="nofollow" class="grey-8">免费注册</a></div>
+            <!---->
+            <!---->
+          </div>
+          <div class="top-menu flex" data-v-6775bc76>
+            <div class="relative member-btn flex flex-center" data-v-6775bc76>
+              <div class="pointer relative full-width full-height" style="z-index:10;"><a
+                  href="https://www.yaya.cn/member" class="member-btn-a grey-8 flex flex-center person-center"
+                  data-v-6775bc76><span data-v-6775bc76>个人中心</span>
+                  <img src="https://img2.yaya.cn/newstatic/1381/01440c5ac95b426f.svg" class="image-hide"
+                    data-v-6775bc76>
+                  <img src="https://img2.yaya.cn/newstatic/1377/01440ce20dad4716.svg" class="image-show"
+                    data-v-6775bc76></a> </div>
+              <div class="content absolute" style="left:0px;right:auto;top:31px;z-index:9;display:none;">
+                <div class="member-menu" data-v-6775bc76><a href="https://www.yaya.cn/member/order/list/mine"
+                    data-v-6775bc76>我的订单</a><a href="https://www.yaya.cn/member/integral" data-v-6775bc76>我的积分</a><a
+                    href="https://www.yaya.cn/member/my-tryout" data-v-6775bc76>我的试用</a><a
+                    href="https://www.yaya.cn/member/favorite" data-v-6775bc76>我的收藏</a><a
+                    href="https://www.yaya.cn/member/coupon/coupons" data-v-6775bc76>我的优惠券</a><a
+                    href="https://www.yaya.cn/member/order/list/repair" data-v-6775bc76>我的维修</a></div>
+              </div>
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!----> <a href="/vip" class="grey-8 flex flex-center vip-club" data-v-6775bc76><img
+                src="https://img2.ch999img.com/newstatic/1377/01438887ebd61ded.svg" class="image-hide" data-v-6775bc76>
+              <img src="https://img2.ch999img.com/newstatic/1378/0143888bbd94fb76.svg" class="image-show"
+                data-v-6775bc76> <span data-v-6775bc76>会员俱乐部</span></a>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!----> <a href="https://www.yaya.cn/doc/31/193" class="grey-8 flex flex-center" data-v-6775bc76><span
+                data-v-6775bc76>帮助中心</span></a>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!----> <a href="javascript:" class="grey-8 flex flex-center" data-v-6775bc76><span
+                data-v-6775bc76>在线客服</span></a>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="relative" data-v-6775bc76>
+              <div class="pointer relative full-width full-height" style="z-index:10;"><a href="javascript:"
+                  id="siteMapBtn" class="sitemap-btn grey-8 flex flex-center navigation" data-v-6775bc76><span
+                    data-v-6775bc76>网站导航</span> <img src="https://img2.yaya.cn/newstatic/1381/01440c5ac95b426f.svg"
+                    class="image-hide" data-v-6775bc76> <img
+                    src="https://img2.yaya.cn/newstatic/1377/01440ce20dad4716.svg" class="image-show"
+                    data-v-6775bc76></a> </div>
+              <div class="content absolute" style="left:0px;right:auto;top:31px;z-index:9;display:none;">
+                <div class="site-map" data-v-6775bc76>
+                  <ul class="flex" data-v-6775bc76>
+                    <li data-v-6775bc76>
+                      <h3 class="main-color" data-v-6775bc76>丫丫特色</h3>
+                      <div class="site-map-list" data-v-6775bc76><a href="https://www.yaya.cn/stores"
+                          data-v-6775bc76>附近门店</a><a href="https://www.yaya.cn/pastingappoint.aspx" data-v-6775bc76>
+                          免费贴膜
+                          <img src="" data-v-6775bc76></a><a href="/huishou" data-v-6775bc76>旧机回收</a><a
+                          href="https://www.yaya.cn/shouhou/" data-v-6775bc76>预约维修</a></div>
+                    </li>
+                    <li data-v-6775bc76>
+                      <h3 class="purple" data-v-6775bc76>服务集市</h3>
+                      <div class="site-map-list" data-v-6775bc76><a href="https://www.yaya.cn/doc/31/169"
+                          data-v-6775bc76>在线支付</a><a href="https://www.yaya.cn/doc/31" data-v-6775bc76>帮助中心</a><a
+                          href="https://www.yaya.cn/doc/31/193" data-v-6775bc76>丫丫服务</a><a
+                          href="https://www.yaya.cn/vip" data-v-6775bc76>
+                          会员俱乐部
+                          <img src="static/picture/014424477251d7ec.png" data-v-6775bc76></a></div>
+                    </li>
+                    <li data-v-6775bc76>
+                      <h3 class="light-blue" data-v-6775bc76>招商合作</h3>
+                      <div class="site-map-list" data-v-6775bc76><a href="https://www.yaya.cn/doc/31/111"
+                          data-v-6775bc76>丫丫百科</a><a href="https://www.yaya.cn/doc/31/112" data-v-6775bc76>商务合作</a>
+                      </div>
+                    </li>
+                    <li data-v-6775bc76>
+                      <h3 class="light-green" data-v-6775bc76>更多精选</h3>
+                      <div class="site-map-list" data-v-6775bc76><a href="https://www.yaya.cn/news/"
+                          data-v-6775bc76>丫丫头条</a></div>
+                    </li>
+                    <li data-v-6775bc76>
+                      <h3 class="light-red" data-v-6775bc76>产品选择</h3>
+                      <div class="site-map-list" data-v-6775bc76><a
+                          href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-6775bc76>手机</a><a
+                          href="https://www.yaya.cn/list/4-0-0-0-0_0.html" data-v-6775bc76>
+                          手机配件
+                          <img src="" data-v-6775bc76></a><a href="https://www.yaya.cn/list/94-0-0-0-0_0.html"
+                          data-v-6775bc76>电脑周边</a><a href="https://www.yaya.cn/list/113-0-0-0-0_0.html"
+                          data-v-6775bc76>耳机音响</a><a href="https://www.yaya.cn/list/86-0-0-0-0_0.html" data-v-6775bc76>
+                          智能产品
+                          <img src="" data-v-6775bc76></a><a href="https://www.yaya.cn/list/8-0-0-0-0_0.html"
+                          data-v-6775bc76>笔记本/电脑</a></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!----> <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank"
+              class="grey-8 flex flex-center report" data-v-6775bc76><img
+                src="https://img2.yaya.cn/newstatic/1383/014423a81dfc834e.png" data-v-6775bc76> <span
+                data-v-6775bc76>不良信息举报</span></a>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="relative" data-v-6775bc76>
+              <div class="pointer relative full-width full-height" style="z-index:10;"><a href="javascript:"
+                  class="phone-btn grey-8 flex flex-center phone-number" data-v-6775bc76><img
+                    src="https://img2.yaya.cn/newstatic/1378/014424c18b25f9b0.svg" class="image-hide" data-v-6775bc76>
+                  <img src="https://img2.yaya.cn/newstatic/1380/014424c4f727a2cc.svg" class="image-show"
+                    data-v-6775bc76> <span data-v-6775bc76>0871-67996799</span></a> </div>
+              <div class="content absolute" style="left:auto;right:0;top:31px;z-index:9;display:none;">
+                <div class="free-phone" data-v-6775bc76>
+                  <p data-v-6775bc76>输入手机号码并免费拨打：</p>
+                  <div class="flex phone-input mt-5" data-v-6775bc76><input type="text" value="" data-v-6775bc76>
+                    <button class="main-bgcolor" data-v-6775bc76>拨打</button></div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          111
+        </div>
+      </div>
+    </div>
+    <header data-v-0ece79e6>
+      <div class="header" style="height:147px;border:0;background:#f7f7f7;" data-v-4876c676 data-v-0ece79e6>
+        <div class="wrapper flex flex-justify-between" data-v-4876c676>
+          <div class="relative flex-child-grow" data-v-4876c676>
+            <div class="head-main flex flex-justify-between" data-v-4876c676>
+              <div class="logo-box flex flex-align-center" data-v-4876c676>
+                <h1 class="block index-logo" data-v-4876c676><a href="/" title="丫丫网" data-v-4876c676><img
+                      src="https://img2.yaya.cn/newstatic/1380/0139384ba76d3da6.png.webp" loading="true" alt="丫丫网"
+                      class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);height:55px;"
+                      data-v-7c26cbf0 data-v-4876c676></a></h1>
+                <!---->
+              </div>
+              <div class="search" data-v-4876c676>
+                <div class="flex" data-v-4876c676><input placeholder="5G手机" value="" data-v-4876c676> <button
+                    class="flex flex-center" data-v-4876c676>搜索</button></div>
+                <div class="hot-search flex" data-v-4876c676><span class="flex-child-noshrink"
+                    data-v-4876c676>热门搜索：</span>
+                  <div class="lines-1" data-v-4876c676>
+                    <a data-v-4876c676="" href="javascript:;">华为 Mate 30 5G</a>
+                    <a data-v-4876c676="" href="javascript:;">iPhone 11</a>
+                    <a data-v-4876c676="" href="javascript:;">OPPO Reno 3</a>
+                    <a data-v-4876c676="" href="javascript:;">vivo X30</a>
+                    <a data-v-4876c676="" href="javascript:;">5G手机</a>
+                  </div>
+                </div>
+                <!---->
+                <!---->
+              </div>
+              <div class="head-cart" data-v-4876c676>
+                <div class="relative" data-v-4876c676>
+                  <div class="pointer relative full-width full-height" style="z-index:4;"><a
+                      href="./client/src/html/shoppingcar.html" target="_blank" class="flex flex-center"
+                      data-v-4876c676><svg aria-hidden="true" width="16" height="14.222222222222221"
+                        viewBox="0 0 576 512" focusable="false" class="fa-icon" data-v-4876c676>
+                        <path
+                          d="M528.1 301.3c-2.5 10.9-12.2 18.7-23.4 18.7h-293.1l6.5 32h268.4c15.4 0 26.8 14.3 23.4 29.3l-5.5 24.3c18.7 9.1 31.6 28.2 31.6 50.4 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-15.7 6.4-29.8 16.8-40h-209.6c10.4 10.2 16.8 24.3 16.8 40 0 30.9-25.1 56-56 56s-56-25.1-56-56c0-20.8 11.3-38.9 28.1-48.6l-70.2-343.4h-69.9c-13.3 0-24-10.7-24-24v-16c0-13.3 10.7-24 24-24h102.5c11.4 0 21.2 8 23.5 19.2l9.2 44.8h392.8c15.4 0 26.8 14.3 23.4 29.3z">
+                        </path>
+                      </svg> <em class="ml-5 mr-5" data-v-4876c676>购物车</em> <span data-v-4876c676>0</span></a> </div>
+                  <div class="content absolute" style="left:auto;right:0;top:38px;z-index:3;display:none;">
+                    <div class="head-cart-content" style="overflow-y:auto;overflow-x:hidden;" data-v-4876c676>
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav class="navigation flex" data-v-4876c676>
+              <div class="relative" data-v-4876c676>
+                <div class="pointer relative full-width full-height" style="z-index:7;">
+                  <h4 class="all-menu" data-v-4876c676>全部商品分类</h4>
+                </div>
+                <div class="content absolute" style="left:0px;right:auto;top:47px;z-index:6;">
+                  <div class="menu-box index-menu" data-v-4876c676>
+
+                  </div>
+                </div>
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://www.yaya.cn/" target=""
+                  data-v-4876c676>首页</a>
+                <!---->
+                <!---->
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://www.yaya.cn/huishou"
+                  target="_blank" data-v-4876c676>旧机回收</a>
+                <!---->
+                <!---->
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://www.yaya.cn/bargain/"
+                  target="_blank" data-v-4876c676>一手优品</a>
+                <!---->
+                <!---->
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://huishou.yaya.cn/NewLpList"
+                  target="_blank" data-v-4876c676>二手良品</a>
+                <!---->
+                <!---->
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676>
+                <!---->
+                <!---->
+                <div class="relative" data-v-4876c676>
+                  <div class="pointer relative full-width full-height" style="z-index:3;"><a
+                      href="https://www.yaya.cn/after-service" target="_blank" rel="nofollow" class="navsh"
+                      data-v-4876c676>售后维修</a> </div>
+                  <div class="content absolute" style="left:0px;right:auto;top:40px;z-index:2;display:none;">
+                    <div class="sub-nav" data-v-4876c676><a href="https://www.yaya.cn/article?cid=66" target="_blank"
+                        data-v-4876c676>售后咨询</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://www.yaya.cn/article"
+                  target="_blank" data-v-4876c676>丫丫头条</a>
+                <!---->
+                <!---->
+              </div>
+              <div class="nav-menu margin-left flex" data-v-4876c676><a href="https://www.yaya.cn/ranks.html" target=""
+                  data-v-4876c676>人气排行</a>
+                <!---->
+                <!---->
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="grey-f-bg view" style="padding-bottom:20px;overflow-x:hidden;" data-v-74e86843 data-v-0ece79e6
+      data-v-0ece79e6 data-v-0ece79e6>
+      <div class="index-top" data-v-74e86843>
+        <!--轮播图-->
+
+        <div class="relative wrapper" data-v-74e86843>
+          <div class="right-info" data-v-74e86843>
+            <div class="user-info" data-v-74e86843>
+              <a href="/member" class="avatar" data-v-74e86843>
+                <img src="./client/src/images/toux.png" data-v-74e86843>
+              </a>
+              <div class="text-center" style="padding-top: 40px; line-height:23px;" data-v-74e86843>
+                <div data-v-74e86843>丫丫网欢迎您～</div>
+                <div data-v-74e86843><a href="/login" class="grey-9" data-v-74e86843>登录</a> <a href="/account/register"
+                    class="grey-9 margin-left" data-v-74e86843>注册</a></div>
+                <p class="grey-9" data-v-74e86843>欢迎回家！您可前往 <a href="/vip" data-v-74e86843>会员俱乐部</a></p>
+              </div>
+            </div>
+            <div data-v-74e86843="" class="news">
+              <div data-v-74e86843="" class="flex flex-align-center flex-justify-between">
+                <div data-v-74e86843="" class="font-14 bold">丫丫头条</div> <a data-v-74e86843="" href="/article"
+                  title="查看更多" class="grey-9 flex flex-align-center">更多
+                  <svg data-v-74e86843="" aria-hidden="true" width="7" height="11.2" viewBox="0 0 320 512"
+                    focusable="false" class="grey-9 fa-icon" style="font-size: 0.7em; margin-left: 3px;">
+                    <path
+                      d="M285.5 273l-194.3 194.3c-9.4 9.4-24.6 9.4-33.9 0l-22.7-22.7c-9.4-9.4-9.4-24.5 0-33.9l154-154.7-154-154.7c-9.3-9.4-9.3-24.5 0-33.9l22.7-22.7c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9z">
+                    </path>
+                  </svg></a>
+              </div>
+              <div data-v-74e86843="" class="news-list"><a data-v-74e86843="" href="https://www.yaya.cn/article/14074"
+                  class="ellipsis">
+                  <!---->
+                  “内外兼修”的旗舰新机 荣耀20发布 99元预订</a><a data-v-74e86843="" href="https://www.yaya.cn/article/14045"
+                  class="ellipsis">
+                  <!---->
+                  【五重优惠 一步到位】全场手机79折起 换电池88元起</a><a data-v-74e86843="" href="https://www.yaya.cn/article/13975"
+                  class="ellipsis">
+                  <!---->
+                  折叠手机时代 三星折叠屏惊艳上市</a>
+                <!---->
+                <!---->
+              </div>
+            </div>
+            <div data-v-74e86843="" class="server flex flex-wrap">
+              <a data-v-74e86843="" href="https://www.yaya.cn/vipclub/"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1377/0150a3d1df1af2a9.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">会员俱乐部</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/stores"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1382/0150a5ab16a29438.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">门店查询</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/event/2393.html"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1380/0150a5ebfe61bde9.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">招商加盟</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/event/2389.html"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1378/0150a6243cffc05b.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">移动宽带</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/shouhou/"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1380/0150a67d79a2dcfe.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">丫丫快修</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/help/13529.html"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1378/0150a6d45bb3be9f.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">延保/意外保</div>
+              </a><a data-v-74e86843="" href="https://www.yaya.cn/bargain/"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1381/0150a7047aa9dced.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">一手优品</div>
+              </a><a data-v-74e86843="" href="https://huishou.yaya.cn/NewLpList/1"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1379/0150a73d072e7f17.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">二手良品</div>
+              </a><a data-v-74e86843="" href="https://huishou.yaya.cn/"
+                class="flex flex-col flex-center overflow-hide"><img data-v-7c26cbf0="" data-v-74e86843=""
+                  src="https://img2.yaya.cn/newstatic/1379/0150a7f58e6f3145.png.webp" width="28" height="28"
+                  class="lazy-img" loaded="true">
+                <div data-v-74e86843="" class="ellipsis" style="margin-top: 6px;">旧机回收</div>
+              </a></div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+      </div>
+      <div id="louceng" class="wrapper" data-v-74e86843>
+        <!-------------------------------------------------------------------------------------------------------------------------->
+        <!-----------------------------1楼----------------------------------------->
+        <div id="1208991981840580609" class="" data-v-74e86843>
+          <div id="lou1" class="floor-item flex flex-wrap flex-justify-between" data-v-74e86843>
+
+          </div>
+        </div>
+
+        <!-----------------------------2楼----------------------------------------->
+        <div id="1209012577248911361" class="floor" data-v-74e86843>
+          <div data-v-08af9666 data-v-74e86843>
+            <div class="floor-item flex flex-justify-between" data-v-08af9666>
+              <div class="white-bg full-width margin-right" data-v-08af9666>
+                <div class="title flex flex-align-end" data-v-08af9666><b class="font-16" data-v-08af9666>新年购机礼包</b>
+                  <span class="grey-9 font-14" data-v-08af9666>最高享红包1680元</span></div> <a
+                  href="https://www.yaya.cn/activity/5036" class="black" data-v-08af9666>
+                  <div class="imgStyle2" data-v-08af9666>
+                    <img src="https://img2.yaya.cn/newstatic/1379/015512ba36c250e8.jpg.webp" loading="true"
+                      class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                      data-v-08af9666></div>
+                </a>
+              </div>
+              <div class="white-bg full-width" data-v-08af9666>
+                <div class="title flex flex-align-end" data-v-08af9666><b class="font-16" data-v-08af9666>积分兑换</b> <span
+                    class="grey-9 font-14" data-v-08af9666>万能积分任性换</span></div> <a href="https://www.yaya.cn/vipclub/"
+                  class="black" data-v-08af9666>
+                  <div class="imgStyle2" data-v-08af9666><img
+                      src="https://img2.yaya.cn/newstatic/1383/0150aa9df73ae6ac.jpg.webp" loading="true"
+                      class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                      data-v-08af9666></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <!---->
+        </div>
+
+
+        <div id="1209013005062328322" class="floor" data-v-74e86843>
+          <!---->
+          <div id="lou2" class="floor-item flex flex-wrap flex-justify-between" data-v-74e86843>
+            <!---->
+          </div>
+        </div>
+
+        <div id="1209015375654985730" class="floor" data-v-74e86843>
+          <div data-v-08af9666 data-v-74e86843>
+            <div class="floor-item flex flex-justify-between" data-v-08af9666>
+              <div class="full-width text-center" data-v-08af9666><a href="javascript:;" data-v-08af9666>
+                  <img src="https://img2.yaya.cn/newstatic/1383/0150ae2870717adf.png.webp" loading="true"
+                    class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                    data-v-08af9666></a></div>
+            </div>
+          </div>
+          <!---->
+          <!---->
+        </div>
+
+
+        <div id="1209015493129052161" class="floor" data-v-74e86843>
+          <!---->
+          <div id="lou3" class="floor-item flex flex-wrap flex-justify-between" data-v-74e86843>
+
+          </div>
+          <!---->
+        </div>
+        <div class="floor" data-v-74e86843>
+          <div data-v-08af9666 data-v-74e86843>
+            <div class="floor-item flex" style="padding: 20px; background:#fff" data-v-08af9666>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-7-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1379/0151b569a727d89b.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>华为</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1383/0151b59237ffa739.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>苹果</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-1255-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html"
+                  data-v-08af9666><img src="https://img2.yaya.cn/newstatic/1379/0151b5cb55a857b4.jpg.webp"
+                    loading="true" class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);"
+                    data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>荣耀</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-9-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1377/0151b6378646f665.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>小米</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-11-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1381/0151b665f05332ac.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>oppo</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-14-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1380/0151b6ab351622e1.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>vivo</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-1154-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html"
+                  data-v-08af9666><img src="https://img2.yaya.cn/newstatic/1383/0151b6f5fb9ec7d2.jpg.webp"
+                    loading="true" class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);"
+                    data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>一加</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="brand" data-v-08af9666><a
+                  href="https://www.yaya.cn/list/2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1383/0151b721f339ce32.jpg.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-08af9666>
+                  <div class="hover" data-v-08af9666>
+                    <div class="flex flex-center flex-col overflow-hide" style="padding: 10px 5px; height: 40px"
+                      data-v-08af9666>
+                      <div class="font-16" data-v-08af9666>三星</div>
+                      <div class="font-14 ellipsis" data-v-08af9666></div>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+          </div>
+          <!---->
+          <!---->
+        </div>
+
+        <div id="1209016292633415681" class="floor" data-v-74e86843>
+          <div data-v-08af9666 data-v-74e86843>
+            <div class="floor-item flex flex-justify-between" data-v-08af9666>
+              <div class="full-width text-center" data-v-08af9666><a href="https://www.yaya.cn/" data-v-08af9666><img
+                    src="https://img2.yaya.cn/newstatic/1381/0150a10fafd1a8e9.png.webp" loading="true" class="lazy-img"
+                    style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                    data-v-08af9666></a></div>
+            </div>
+          </div>
+          <!---->
+          <!---->
+        </div>
+      </div>
+      <!-------------------------------------------------------------------------------------------------------------------------->
+    </div>
+    <footer data-v-0ece79e6>
+      <div class="footer white-bg" data-v-756b9580 data-v-0ece79e6>
+        <div class="border-bottom margin-bottom" data-v-756b9580>
+          <div class="wrapper promise flex flex-justify-between flex-align-center" data-v-756b9580><a
+              href="https://www.yaya.cn/doc/31/111" target="_blank" data-v-756b9580>
+              <dl data-v-756b9580>
+                <dt
+                  style="background-size:50px 50px;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd data-v-756b9580>
+                  <h4 data-v-756b9580>新丫丫 新生态</h4>
+                  <p data-v-756b9580>丫丫网，不止于手机</p>
+                </dd>
+                <!---->
+              </dl>
+            </a><a href="https://www.yaya.cn/doc/31/182" target="_blank" data-v-756b9580>
+              <dl data-v-756b9580>
+                <dt
+                  style="background-size:50px 50px;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd data-v-756b9580>
+                  <h4 data-v-756b9580>15天包换</h4>
+                  <p data-v-756b9580>售后保证，后顾无忧</p>
+                </dd>
+                <!---->
+              </dl>
+            </a><a href="https://www.yaya.cn/doc/31/172" target="_blank" data-v-756b9580>
+              <dl data-v-756b9580>
+                <dt
+                  style="background-size:50px 50px;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd data-v-756b9580>
+                  <h4 data-v-756b9580>1小时极速达</h4>
+                  <p data-v-756b9580>自建物流，直达客户</p>
+                </dd>
+                <!---->
+              </dl>
+            </a><a href="https://www.yaya.cn/after-service" target="_blank" data-v-756b9580>
+              <dl data-v-756b9580>
+                <dt
+                  style="background-size:50px 50px;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd data-v-756b9580>
+                  <h4 data-v-756b9580>丫丫维修</h4>
+                  <p data-v-756b9580>透明报价，公开公平</p>
+                </dd>
+                <!---->
+              </dl>
+            </a><a href="https://www.yaya.cn/stores" target="_blank" data-v-756b9580>
+              <dl data-v-756b9580>
+                <dt
+                  style="background-size:50px 50px;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd data-v-756b9580>
+                  <h4 data-v-756b9580>门店保障</h4>
+                  <p data-v-756b9580>实体购物，更加安心</p>
+                </dd>
+                <!---->
+              </dl>
+            </a></div>
+        </div>
+        <div class="foot-help" data-v-756b9580>
+          <div class="wrapper flex flex-justify-between" data-v-756b9580>
+            <dl data-v-756b9580>
+              <dt data-v-756b9580>新手指南</dt>
+              <dd data-v-756b9580><a href="https://www.yaya.cn/doc/31/166" rel="nofollow" data-v-756b9580>会员注册与使用</a><a
+                  href="https://www.yaya.cn/news/list12-1.html" rel="nofollow" data-v-756b9580>丫丫评测</a><a
+                  href="https://www.yaya.cn/doc/31/180" rel="nofollow" data-v-756b9580>积分介绍</a></dd>
+            </dl>
+            <dl data-v-756b9580>
+              <dt data-v-756b9580>付款方式</dt>
+              <dd data-v-756b9580><a href="https://www.yaya.cn/doc/31/169" rel="nofollow" data-v-756b9580>在线支付</a><a
+                  href="https://www.yaya.cn/doc/31/170" rel="nofollow" data-v-756b9580>分期介绍</a><a
+                  href="https://www.yaya.cn/doc/31/171" rel="nofollow" data-v-756b9580>退款介绍</a></dd>
+            </dl>
+            <dl data-v-756b9580>
+              <dt data-v-756b9580>配送方式</dt>
+              <dd data-v-756b9580><a href="https://www.yaya.cn/stores" rel="nofollow" data-v-756b9580>到店自提</a><a
+                  href="https://www.yaya.cn/doc/31/172" rel="nofollow" data-v-756b9580>送货上门</a><a
+                  href="https://www.yaya.cn/doc/31/174" rel="nofollow" data-v-756b9580>快递运输</a></dd>
+            </dl>
+            <dl data-v-756b9580>
+              <dt data-v-756b9580>售后服务</dt>
+              <dd data-v-756b9580><a href="https://www.yaya.cn/doc/31/182" rel="nofollow" data-v-756b9580>售后服务政策</a><a
+                  href="https://www.yaya.cn/doc/31/190" rel="nofollow" data-v-756b9580>维修质保政策</a><a
+                  href="https://www.yaya.cn/doc/31/193" rel="nofollow" data-v-756b9580>丫丫服务</a></dd>
+            </dl>
+            <dl data-v-756b9580>
+              <dt data-v-756b9580>帮助中心</dt>
+              <dd data-v-756b9580><a href="https://www.yaya.cn/doc/31/166" rel="nofollow" data-v-756b9580>常见问题解答</a><a
+                  href="https://www.yaya.cn/doc/31/175" rel="nofollow" data-v-756b9580>会员介绍</a><a
+                  href="https://www.yaya.cn/doc/31/90" rel="nofollow" data-v-756b9580>交易条款</a></dd>
+            </dl>
+            <div class="foot-sns flex-child-shrink" data-v-756b9580>
+              <dl class="flex" data-v-756b9580>
+                <dt class=" qr-code flex-child-noshrink"
+                  style="background-repeat:no-repeat;background-position:0;background-image:url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);"
+                  data-v-756b9580></dt>
+                <dd style="margin: 0" data-v-756b9580>
+                  <h4 class="normal black font-14" data-v-756b9580>丫丫网官方微信</h4>
+                  <p class="grey-9 margin-top lh-15" data-v-756b9580>扫描二维码，即刻调戏丫丫，更多精彩活动等着你哦！</p>
+                </dd>
+              </dl>
+              <div class="hub-link flex" data-v-756b9580>
+                <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-list black-bg" data-v-756b9580>
+          <div class="wrapper full-height flex flex-justify-between flex-align-center" data-v-756b9580><a
+              href="javascript:" class="arrow" data-v-756b9580>&lt;</a>
+            <div class="shop-container overflow-hide" data-v-756b9580>
+              <ul class="shop-ul flex relative" style="width:2220px;transform:translate3d(0px,0,0);" data-v-756b9580>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市五华区环城西路43号附9号(市体育馆旁)" data-v-756b9580>市体育馆店·Yk1地址：昆明市五华区环城西路43号附9号(市体育馆旁)</p>
+                  <p data-v-756b9580>销售热线：0871-63922445</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-21:30</p> <a href="/stores/484" target="_blank"
+                    title="市体育馆店·Yk1：昆明市五华区环城西路43号附9号(市体育馆旁)" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="484" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市官渡区塘双路8号附2号(地铁站C口)北京路与塘双路交叉口" data-v-756b9580>塘双路店·Yk2地址：昆明市官渡区塘双路8号附2号(地铁站C口)北京路与塘双路交叉口
+                  </p>
+                  <p data-v-756b9580>销售热线：0871-63138803</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-22:00</p> <a href="/stores/485" target="_blank"
+                    title="塘双路店·Yk2：昆明市官渡区塘双路8号附2号(地铁站C口)北京路与塘双路交叉口" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="485" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市五华区红兴路15号(北市区公交车场对面)" data-v-756b9580>北市区店·Yk5地址：昆明市五华区红兴路15号(北市区公交车场对面)</p>
+                  <p data-v-756b9580>销售热线：0871-65861665</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-22:00</p> <a href="/stores/487" target="_blank"
+                    title="北市区店·Yk5：昆明市五华区红兴路15号(北市区公交车场对面)" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="487" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市官渡区金源大道茗春苑A9-09号( 嘉华饼屋正对面)" data-v-756b9580>世纪城店·Yk6地址：昆明市官渡区金源大道茗春苑A9-09号( 嘉华饼屋正对面)</p>
+                  <p data-v-756b9580>销售热线：0871-68334568</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-22:00</p> <a href="/stores/488" target="_blank"
+                    title="世纪城店·Yk6：昆明市官渡区金源大道茗春苑A9-09号( 嘉华饼屋正对面)" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="488" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市官渡区国贸路631号兴泽园C幢102号(苏宁斜对面)" data-v-756b9580>关上店·Yk7地址：昆明市官渡区国贸路631号兴泽园C幢102号(苏宁斜对面)</p>
+                  <p data-v-756b9580>销售热线：0871-68234110</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-22:00</p> <a href="/stores/489" target="_blank"
+                    title="关上店·Yk7：昆明市官渡区国贸路631号兴泽园C幢102号(苏宁斜对面)" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="489" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+                <li class="white" data-v-756b9580>
+                  <p title="昆明市官渡区锦城官南小区二期时尚假日苑2幢2-07号" data-v-756b9580>玫瑰湾店·Yk8地址：昆明市官渡区锦城官南小区二期时尚假日苑2幢2-07号</p>
+                  <p data-v-756b9580>销售热线：0871-67325179</p>
+                  <p data-v-756b9580>工作时间：周一至周日09:00-22:00</p> <a href="/stores/494" target="_blank"
+                    title="玫瑰湾店·Yk8：昆明市官渡区锦城官南小区二期时尚假日苑2幢2-07号" data-v-756b9580>店铺详情</a>
+                  <!----> <a rel="nofollow" href="javascript:" data-id="494" class="send-shop-btn"
+                    data-v-756b9580>发送至手机</a>
+                </li>
+              </ul>
+            </div> <a href="javascript:" class="arrow" data-v-756b9580>&gt;</a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom" data-v-7c7e9e84 data-v-0ece79e6>
+        <div class="wrapper" data-v-7c7e9e84>
+          <div class="foot_nav text-center" data-v-7c7e9e84><a href="https://www.yaya.cn/shouhou/list22.html"
+              rel="nofollow" data-v-7c7e9e84>常见问题</a> <i data-v-7c7e9e84>|</i><a href="https://www.yaya.cn/doc/31/111"
+              rel="nofollow" data-v-7c7e9e84>关于我们</a> <i data-v-7c7e9e84>|</i><a href="https://www.yaya.cn/doc/31/112"
+              rel="nofollow" data-v-7c7e9e84>联系我们</a> <i data-v-7c7e9e84>|</i><a
+              href="https://www.yaya.cn/login?redirect=%2Fmember%2Fcomplaint%2Fadd" rel="nofollow"
+              data-v-7c7e9e84>投诉建议</a>
+            <!---->
+          </div>
+          <div class="copy text-center margin-bottom" data-v-7c7e9e84>
+            <p data-v-7c7e9e84><span data-v-7c7e9e84>各门店营业时间<span data-v-7c7e9e84> : </span>
+                <!---->
+                <!---->
+                <!----> 周一至周日 09:00-21:30
+                <span data-v-7c7e9e84>    </span></span><span data-v-7c7e9e84>全国服务热线<span data-v-7c7e9e84> : </span>
+                <!---->
+                <!---->
+                <!----> 400-995-5966
+                <span data-v-7c7e9e84>    </span></span><span data-v-7c7e9e84>工作时间<span data-v-7c7e9e84> : </span>
+                <!---->
+                <!---->
+                <!----> 周一至周日 09:00-21:30
+                <!----></span></p>
+            <p data-v-7c7e9e84><span data-v-7c7e9e84>网站ICP备案号<span data-v-7c7e9e84> : </span>
+                <!----> <a href="http://www.beian.gov.cn/" rel="nofollow" target="_blank" data-v-7c7e9e84>
+                  滇ICP备11005817号-7
+                </a> <span data-v-7c7e9e84>    </span>
+                <!----></span><span data-v-7c7e9e84>电信业务经营许可证<span data-v-7c7e9e84> : </span>
+                <!---->
+                <!---->
+                <!----> 滇B2-20160011
+                <span data-v-7c7e9e84>    </span></span><span data-v-7c7e9e84>
+                <!----> <a rel="nofollow" target="_blank" data-v-7c7e9e84> 滇公网安备 53011102000207号
+                  <!----></a>
+                <!---->
+                <!---->
+                <!----></span></p>
+            <p data-v-7c7e9e84><span data-v-7c7e9e84>Copyright © 2006 - 2019 丫丫网 All Rights Reserved
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!----></span></p>
+            <p data-v-7c7e9e84><span data-v-7c7e9e84>昆明丫丫科技有限公司版权所有
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+                <!----></span></p>
+          </div>
+          <div class="bot-link text-center padding-bottom" data-v-7c7e9e84><a
+              href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank" title="不良信息举报中心"
+              data-v-7c7e9e84><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                loading="true" class="lazy-img image" style="background-image:url(static/images/013938ef1c64dcee.png);"
+                data-v-7c26cbf0 data-v-7c7e9e84></a><a
+              href="https://si.trustutn.org/info?sn=745170310027333860828&amp;certType=1" target="_blank"
+              title="认证联盟实名认证" data-v-7c7e9e84><img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" loading="true"
+                class="lazy-img image" style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                data-v-7c7e9e84></a><a
+              href="https://wljg.ynaic.gov.cn/ynwjww/indexquery/indexqueryAction!dizview.dhtml?chr_id=9f50505f29417d540b54bd272ab182db&amp;bus_ent_id=530100D000821536&amp;bus_ent_chr_id=61018025d2af4910a566bd63729d4404"
+              target="_blank" title="工商网监" data-v-7c7e9e84><img
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" loading="true"
+                class="lazy-img image" style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0
+                data-v-7c7e9e84></a><a href="https://www.yn.cyberpolice.cn/" target="_blank" title="云南网警"
+              data-v-7c7e9e84><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                loading="true" class="lazy-img image" style="background-image:url(static/images/013938ef1c64dcee.png);"
+                data-v-7c26cbf0 data-v-7c7e9e84></a></div>
+        </div>
+      </div>
+      <div class="relative friend-link flex flex-justify-between overflow-hide wrapper" data-v-75dd6de3 data-v-0ece79e6>
+        <span class="grey-9 flex-child-noshrink margin-right" data-v-75dd6de3>友情链接</span>
+        <div class="overflow-hide flex-child-grow padding-left padding-right" data-v-5f54dadb data-v-75dd6de3>
+          <div class="roll" data-v-5f54dadb>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.puercn.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>普洱茶</a><a href="http://www.xincha.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>茶网</a><a href="http://www.91lai.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>返利网</a><a href="http://www.qqqnm.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>海淘攻略</a><a href="http://www.runbo.net/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>军用手机</a><a href="http://www.runbo.net/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>军用手机</a><a href="http://www.ihuigo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机回收网</a><a href="http://www.aikuaidi.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>快递单号查询</a><a href="http://m.kuaidi100.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>快递查询</a><a href="http://www.kuaidi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>快递单号查询</a><a href="http://www.1119.la/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>一元云购</a><a href="http://www.2009.name/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>电竞网</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://gongying.99114.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>供应商</a><a href="http://club.huawei.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>花粉俱乐部</a><a href="http://www.tongbu.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>苹果助手</a><a href="http://www.meizumi.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>魅族手机</a><a href="http://www.jinshixun.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>邢台123</a><a href="http://www.gjw.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>白酒</a><a href="http://www.love616.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>时尚女装</a><a href="http://app.yzmg.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>app推广</a><a href="http://www.zhuantilan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>软件下载</a><a href="http://www.jihaoba.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>吉号吧</a><a href="http://www.jihaoba.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>吉号吧</a><a href="http://www.aitaocui.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>翡翠价格</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://bbs.m.qq.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>手机管家论坛</a><a href="http://www.3kk.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>橙光游戏</a><a href="http://www.haohaizi.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>母婴用品</a><a href="http://www.99jianzhu.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>久久网</a><a href="http://www.wenbita.net/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>文山文笔塔</a><a href="http://www.cunan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>村安商城</a><a href="http://club.meilele.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>装修论坛</a><a href="http://baike.hao123.cn/shouji/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>123手机网</a><a href="http://www.bzw315.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>装修网</a><a href="http://news.znds.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>智能电视资讯</a><a href="http://news.znds.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>智能电视资讯</a><a href="http://bbs.cnmo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机论坛</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.cjcp.com.cn/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>福彩开奖</a><a href="http://www.crd.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>克徕帝钻戒</a><a href="http://www.58yiji.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>二手手机回收</a><a href="http://jiaju.jia.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>家居</a><a href="http://www.dapu.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>纯棉家居家纺</a><a href="http://www.2298.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>前店后厂批发</a><a href="http://www.taolv365.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机回收</a><a href="http://www.lipin-bj.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>礼品</a><a href="http://www.1zw.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>淘牛品</a><a href="http://www.taoniupin.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>淘牛品</a><a href="http://www.windows7en.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>win7旗舰版</a><a href="http://www.pztuan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>团购</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.muzisoft.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>刷机包</a><a href="http://www.yy138.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>手机应用</a><a href="http://www.bzw315.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>装修网</a><a href="http://www.bzw315.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>装修网</a><a href="http://www.xbaixing.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>百姓网</a><a href="http://www.58fenlei.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>58同城</a><a href="http://www.ymt360.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>农业网</a><a href="http://www.shuolianai.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>女追男</a><a href="http://www.178good.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>购物网站大全</a><a href="http://www.crd.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>克徕帝钻戒</a><a href="http://www.yaya.cn/kunming/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>昆明手机网</a><a href="http://www.yipihuo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>批发网</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.wbiao.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>万表网名表</a><a href="http://www.aichong.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>爱宠网</a><a href="http://dnf.178.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>DNF</a><a href="http://www.zhigou.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>网上购物</a><a href="http://b2b.huangye88.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>中国企业黄页网</a><a href="http://www.lingshi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>好吃零食</a><a href="http://www.52hua.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>鲜花网</a><a href="http://www.chinamacro.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>热水器</a><a href="http://www.mama999.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>丫丫妈咪网</a><a href="http://www.landui.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>蓝队网络</a><a href="http://www.4000156651.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>昆明康辉</a><a href="http://www.8721.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手游之家</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.bzw315.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>装修网</a><a href="http://club.huawei.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>花粉俱乐部</a><a href="http://www.25az.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>安卓游戏下载</a><a href="http://www.886abc.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>192.168.1.1</a><a href="http://www.1111.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>9.9包邮</a><a href="http://www.zhihuiyixue.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>汽车世界网</a><a href="http://www.onekeyrom.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>甜椒刷机</a><a href="http://www.psjia.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>PS教程</a><a href="http://www.zctx.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>zippo打火机</a><a href="http://mobile.pchome.net/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机频道</a><a href="http://www.cunan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>村安商城</a><a href="http://www.wadongxi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>比价网</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.kongbao80.com"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>空包网</a><a href="http://www.muzisoft.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>刷机包</a><a href="http://www.114la.com" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>114啦网址导航</a><a href="http://www.binlun.com.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>手表网</a><a href="http://brand.zhe800.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>品牌特卖</a><a href="http://hao.360.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>360导航</a><a href="http://www.juanpi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>卷皮网</a><a href="http://www.14du.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>网推大家坛</a><a href="http://se.360.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>360安全浏览器</a><a href="http://www.anfensi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>好玩的安卓游戏</a><a href="http://www.1000tuan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>千团团购网</a><a href="http://www.zhuatongji.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>全球十大通缉犯</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://iwebad.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>市场营销</a><a href="http://www.hao123.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>hao123</a><a href="http://www.zhe.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>折点看</a><a href="http://a-huo.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>奢侈品市场</a><a href="http://www.i4.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>苹果越狱</a><a href="http://www.rf.tm" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>香港公司注册网</a><a href="http://list.eelly.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>服装批发网</a><a href="http://list.eelly.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>服装批发网</a><a href="http://www.69sj.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>69手机网</a><a href="http://www.ynzp.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>云南招聘网</a><a href="http://www.wechatnet.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>微信网页版</a><a href="http://www.zhuannet.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机商城</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.mscbsc.com"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>移动通信网</a><a href="http://www.2345.com" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>2345网址大全</a><a href="http://www.1zw.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>1折网</a><a href="http://www.shiguche88.com" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>拆车件</a><a href="http://www.15153.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手游网</a><a href="http://t.qianzhan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>头条前瞻</a><a href="http://info.17ugo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>优购物</a><a href="http://www.51bi.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>优惠券</a><a href="http://www.hitao.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>嗨淘化妆品</a><a href="http://www.apk8.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>apk</a><a href="http://www.baoshanjie.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>昆明论坛</a><a href="http://www.auto6s.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>汽车知识</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.auto6s.com"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>汽车知识</a><a href="http://www.gaogulou.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>玉溪高古楼</a><a href="http://www.woku9.com" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>我酷9小说网</a><a href="http://www.kaopu001.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>安卓模拟器</a><a href="http://71.net" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>企翼网</a><a href="http://www.shouji.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机王国</a><a href="http://www.meilele.com/category-yaoyi/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>摇椅</a><a href="http://www.meilele.com/category-wenjiangui/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>文件柜</a><a href="http://www.shhuo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>华强北</a><a href="http://www.jaadee.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>翡翠</a><a href="http://www.moyoyo.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手游交易</a><a href="http://www.8721.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>手机之家</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.laohu.com/"
+                target="_blank" data-v-5f54dadb data-v-75dd6de3>老虎游戏</a><a href="http://www.7273.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>4399小游戏</a><a
+                href="http://webscan.360.cn/index/checkwebsite/url/www.ch999.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>360网站安全检测平台</a><a href="http://www.appvv.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>维维网iPhone</a><a href="http://www.muzisoft.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>刷机包</a><a href="http://www.skywldh.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>网络电话软件</a><a href="http://www.dianhua.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>电话帮</a><a href="http://www.qj.com.cn/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>前景加盟网</a><a href="http://www.yofus.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>有福网照片书</a><a href="http://www.lenosoft.net/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>仓库管理软件</a><a href="ete" target="_blank" data-v-5f54dadb data-v-75dd6de3>tet</a><a
+                href="http://www.baoshanjie.com/" target="_blank" data-v-5f54dadb data-v-75dd6de3>昆明论坛</a></div>
+            <div class="friend-link-item" data-v-5f54dadb data-v-75dd6de3><a href="http://www.pp3.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>电脑主题</a><a href="http://esf.km.fang.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>昆明二手房</a><a href="http://www.apple110.com/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>iPhone序列号查询</a><a href="http://www.minyaojita.cn/" target="_blank"
+                data-v-5f54dadb data-v-75dd6de3>民谣吉他</a><a href="http://www.memejie.com" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>么么街</a><a href="http://t.qianzhan.com/" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>头条前瞻</a><a href="www.qqmingzi.cc" target="_blank" data-v-5f54dadb
+                data-v-75dd6de3>凯发娱乐</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="tool-bar flex flex-align-center" style="width:35px;" data-v-7244d7db data-v-0ece79e6>
+      <div class="tool-item" data-v-7244d7db>
+        <div data-v-7244d7db><a href="./client/src/html/shoppingcar.html" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1377/0143a1769673b0b9.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db>
+            <!----> <span data-v-7244d7db>购物车</span></a>
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!----> <a href="https://www.yaya.cn/stores" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1383/0143a17b213078c1.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db> <span
+              data-v-7244d7db>附近门店</span></a>
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!---->
+          <!----> <a href="javascript:;" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1383/0143a1a102125320.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db> <span
+              data-v-7244d7db>咨询客服</span></a>
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!----> <a href="https://www.yaya.cn/member/complaint/add" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1383/01440068cd7f1c17.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db> <span
+              data-v-7244d7db>投诉意见</span></a>
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!---->
+          <!---->
+          <!---->
+          <a href="javascript:;" class="tool-wechat" data-v-7244d7db>
+            <img src="https://img2.yaya.cn/newstatic/1378/0144005cb0a4b16f.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db>
+            <span data-v-7244d7db>
+              <img src="https://img2.yaya.cn/newstatic/1379/0143aa4f26f72c98.png.webp" loading="true" width="100"
+                height="100" class="lazy-img" style="background-image:url(static/images/013938ef1c64dcee.png);"
+                data-v-7c26cbf0 data-v-7244d7db>
+            </span></a>
+          <!---->
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!---->
+          <!---->
+          <!---->
+          <!----> <a href="javascript:;" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1380/0143a4249cffbf90.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db> <span
+              data-v-7244d7db>产品对比</span></a>
+          <!---->
+        </div>
+        <div data-v-7244d7db>
+          <!---->
+          <!---->
+          <!---->
+          <!---->
+          <!----> <a href="javascript:;" class="tool-top" data-v-7244d7db><img
+              src="https://img2.yaya.cn/newstatic/1380/0143a40fdbcd40a9.png.webp" loading="true" class="lazy-img"
+              style="background-image:url(static/images/013938ef1c64dcee.png);" data-v-7c26cbf0 data-v-7244d7db> <span
+              data-v-7244d7db>回到顶部</span></a></div>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+  </div>
+  <script>
+    (function () {
+      var s;
+      (s = document.currentScript || document.scripts[document.scripts.length - 1]).parentNode.removeChild(s);
+    }());
+  </script>
+  <script>
+    /* eslint-disable no-use-before-define,semi */
+    // 异步百度统计
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement('script');
+      hm.src = '//hm.baidu.com/hm.js?e4dc193423e8d77dc81f0d31d601c95c';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+
+    // 判断ie
+    function isIE() { // ie?
+      if (!!window.ActiveXObject || 'ActiveXObject' in window) {
+        return true
+      } else {
+        return false
+      }
+    }
+    if (isIE()) {
+      var myscript = document.createElement('script')
+      myscript.crossorigin = 'anonymous'
+      myscript.src =
+        'https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.%40%40iterator%2CSymbol%2CSymbol.hasInstance%2CSymbol.isConcatSpreadable%2CSymbol.iterator%2CSymbol.match%2CSymbol.replace%2CSymbol.search%2CSymbol.species%2CSymbol.split%2CSymbol.toPrimitive%2CSymbol.toStringTag%2CSymbol.unscopables'
+      document.body.appendChild(myscript)
+    }
+  </script>
+</body>
+
+</html>

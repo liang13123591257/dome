@@ -1,0 +1,1049 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta property="qc:admins" content="270126270761216375" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico?v=3" type="image/x-icon" />
+<title>对不起，您访问的页面失踪了！ - 丫丫网</title>
+<meta name="description" content="丫丫网是专业手机零售O2O网站平台，为您提供正品行货手机、笔记本及平板电脑等产品。强大的技术支持，为您提供优质售后服务，包括刷机、手机维修及正版软件安装。为您提供手机评测、热门机型推荐、手机使用经验分享等全方位服务!">
+<meta name="Keywords" content="丫丫网,丫丫,yaya.cn,品牌手机,正品手机,行货手机,手机维修,手机评测,手机报价">
+
+<script>
+    var basePath = "//img2.yaya.cn/";
+</script>
+<script type="text/javascript" src="//img2.yaya.cn/static/script/jquery-1.12.3.min.js"></script>
+
+
+<script type="text/javascript" src="//img2.yaya.cn/static/script/fun.js?v=61"></script>
+<link type="text/css" href="//img2.yaya.cn/static/style/main.css?v=61" rel="stylesheet" />
+<script src="//img2.yaya.cn/static/script/es6-promise.min.js"></script>
+<script src="//img2.yaya.cn/static/script/es6-promise.auto.min.js"></script> 
+<script>
+    //判断浏览器版本是否过低
+    var ua = navigator.userAgent.toLowerCase();
+    if (window.ActiveXObject) {  //ie
+        // console.log(Platform.browser.version());
+        var IEversion = ua.match(/msie ([\d.]+)/)[1];
+        if (IEversion <= 10) {
+            location.href = "/static/kill-ie.html";
+        }
+    }
+    if (Platform.browser.name() == 'chrome' && Platform.browser.version() < 30) {  //chrome
+        location.href = "/static/kill-ie.html";
+    }
+</script>
+
+</head>
+<body class="bg" style="position: relative;">
+    
+<!--顶栏-->
+<div class="top">
+    <div class="wrapper">
+        <div class="top-weizhi left" style="display:none;">
+            <a href="javascript:;" class="changetop-city" pid="53" zid="5301" did="530102"><i></i>市辖区<em></em></a>
+        </div>
+        <div class="top-login left">
+            <p>Hi，欢迎来丫丫！<a href="/acount/login.aspx" rel="nofollow">登录</a><a href="/acount/reg.aspx" rel="nofollow">免费注册</a></p>
+        </div>
+        <div class="top-menu right">
+            
+            <a href="/member" class="top-user" rel="nofollow">个人中心<i class="triangle-down"></i></a>
+            <a href="/vip" rel="nofollow"><i class="icon vip"></i>会员俱乐部</a>
+            <a href="/doc/31" rel="nofollow">帮助中心</a>
+            
+            <a href="javascript:;" onclick="Jiuji.chat('show')">在线客服</a>
+            <a href="javascript:;" class="top-sitemap">网站导航<i class="triangle-down"></i></a>
+            <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank" title="不良信息举报通道" class="unhealthy-info"><i class="icon" style="background:url(/Static/images/jubao.png) no-repeat center top; background-size:15px;"></i>不良信息举报</a>
+            <a href="javascript:;" class="top-telephone"><i class="icon"></i>0871-67996799</a>
+        </div>
+        <div class="top-user-show">
+            <!-- <a href="/mycenter/orderall.aspx">我的订单</a>
+            <a href="/mycenter/myjifen.aspx">我的积分</a>
+            <a href="/mycenter/mytryout.aspx">我的试用</a>
+            <a href="/mycenter/collection.aspx">我的收藏</a>
+            <a href="/mycenter/myzixun.aspx">我的咨询</a>
+            <a href="/mycenter/redpaper.aspx">我的优惠券</a>
+            <a href="/mycenter/myweixiu.aspx?yue=0">报修/退换货</a> -->
+            <a href="/member/order/list/mine">我的订单</a>
+            <a href="/member/integral">我的积分</a>
+            <a href="/member/my-tryout">我的试用</a>
+            <a href="/member/favorite">我的收藏</a>
+            <a href="/member/coupon/coupons">我的优惠券</a>
+            <a href="/member/order/list/repair">我的维修</a>
+        </div>
+        <div class="top-sitemap-show">
+            <ul>
+                <li class="tese-box">
+                    <h3 class="orange">丫丫特色</h3>
+                    <div class="fnav-list">
+                        <a href="/stores">附近门店</a>
+                        
+                        <a href="/pastingappoint.aspx">免费贴膜<i class="hot-icon"></i></a>
+                        <a href="/huishou">旧机回收</a>
+                        <a href="/shouhou/">预约维修</a>
+                       
+                       
+                    </div>
+                </li>
+                <li class="fuwu-box">
+                    <h3 class="purple">服务集市</h3>
+                    <div class="fnav-list">
+                        <a href="/help/13524.html">在线支付</a>
+                        
+                        
+                        
+                        <a href="/doc/31">帮助中心</a>
+                        <a href="/doc/31/193">丫丫服务</a>
+                        <a href="/vip">会员俱乐部<i class="hot-icon"></i></a>
+                    </div>
+                </li>
+                <li class="join-box">
+                    <h3 class="light-blue">招商合作</h3>
+                    <div class="fnav-list">
+                        
+                        
+                        <a href="/help/13521.html">丫丫百科</a>
+                    </div>
+                </li>
+                <li class="more-choice">
+                    <h3 style="color:#73ae37;">更多精选</h3>
+                    <div class="fnav-list">
+                        <a href="/news/">丫丫头条</a>
+                       
+                    </div>
+                </li>
+                <li class="product-choice">
+                    <h3 class="light-red">产品选择</h3>
+                    <div class="fnav-list">
+                        <a href="/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">手机</a>
+                        <a href="/list/4-0-0-0-0-1.html">手机配件<i class="hot-icon"></i></a>
+                        <a href="/list/94-0-0-0-0-1.html">电脑周边</a>
+                        <a href="/list/113-0-0-0-0-1.html">耳机音响</a>
+                        <a href="/list/86-0-0-0-0-1.html">智能产品<i class="new-icon"></i></a>
+                        <a href="/list/8-0-0-0-0-1.html">笔记本/电脑</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+    </div>
+</div>
+<script>
+    $(".top-user").hoverShow("cur", ".top-user-show", function () {
+        $(".top-user-show").css({left:$(".top-user").offset().left});
+    });
+    $(".top-app").hoverShow("cur", ".top-app-show", function () {
+        $(".top-app-show").css({ left: $(".top-app").offset().left - 242 + $(".top-app").outerWidth() });
+    });
+    $(".top-telephone").hoverShow("cur", ".top-free-phone", function () {
+        $(".top-free-phone").css({ left: $(".top-telephone").offset().left - 222 + $(".top-telephone").outerWidth() });
+    });
+    $(".top-sitemap").hoverShow("cur", ".top-sitemap-show");
+    setTimeout(function () {
+        Jiuji.user.getInfo(function (res) {
+            if (res.status == 1) {
+                var msg = '<sub>' + res.msgCount + '</sub>';
+                if (res.msgCount == 0) { msg = ""; }
+                $(".top-login").html('<p>Hi，<a href="/member" title="进入个人中心" style="margin:0;">' + res.userName + '</a>\
+                                        <a href="/myCenter/myLevel.aspx" target="_blank" style="margin:0;" title="会员等级"><i class="icon user-level user-level-' + res.userClass + '"></i></a>\
+                                        <a id="jifen_a" href="/vip" title="我的积分"><i class="icon user-point"></i>' + res.totalPoint + '</a>\
+                                        <a href="/mycenter/mymsg.aspx" class="user-msg" title="消息"><i class="icon"></i>' + msg + '</a>\
+                                        <a href="javascript:;" onclick="Jiuji.user.logOut()">退出</a></p>');
+                $("#J-free-phone-num").val(res.mobile);
+            }
+        });
+    }, 1000); 
+    function freePhone() {
+        var phone = $("#J-free-phone-num").val();
+        if (!Validate.mobile(phone)) {
+            layer.tips("请输入正确的手机号码", "#J-free-phone-num");
+            return;
+        }
+        var loading=layer.load();
+        $.post("/ajaxOperate.aspx", { 'act': 'FreeCall', 'mobile': phone }, function (res) {
+            layer.close(loading);
+            if (res.stats == 1) {
+                layer.tips("请稍等，客服正在拨打您的电话", $(".top-telephone"), { tips: 3 });
+            } else {
+                layer.tips(res.result, $(".top-telephone"), { tips: 3 });
+            }
+        }, 'json');
+    }
+</script>
+
+<!--头部-->
+<div class="header">
+    <div class="wrapper">
+        <div class="logo-box left relative">
+            <h1 class="logo left">
+                <a href="/" title="丫丫网">
+                    <img id="indexLogo" src="/static/images/yaya.png?v=2" alt="丫丫网" style="width:120px;" />
+                </a>
+            </h1>
+            <div class="head-city left">
+                <a href="javascript:;" class="change-city yahei" pid="53" zid="5301" did="530102">市辖区<em></em></a>
+                
+                
+            </div>
+            <script type="text/javascript">
+                if (navigator.cookieEnabled && !new Cookie().get("cityid")) {
+                    $.post("/api/cachecommon.aspx",
+                        { act: "myAddressArea" },
+                        function (rsp) {
+                            var cityId = 530102;
+                            if (rsp.status == 1) {
+                                cityId = rsp.cityid;
+                            }
+                            $("body").changeCity(cityId);
+                        }, "json");
+                }
+                $(".change-city").changeCity();
+                $(".changetop-city").changeCity();
+            </script>
+        </div>
+
+        <div class="search left">
+            <form action="/search" method="get" class="search-form">
+                <input class="search-box" name="w" type="text" id="searchbox" placeholder="5G手机" value="" autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" maxlength="50" /><input type="hidden" value="" name="pId" />
+                <input type="hidden" value="ASP._404_aspx" />
+                <input type="hidden" value="False" />
+                <input name="" type="submit" class="search-btn" value="搜索" />
+            </form>
+            <dl class="search-history">
+                <dt>搜索历史：</dt>
+                <dd class="search-history-list"><a href="">iphone</a><a href="">6s</a></dd>
+                <dd><a href="javascript:;" onclick="clearHistory()" style="color: #3caaff; border-bottom: 0;">清空历史记录</a></dd>
+            </dl>
+            <div class="search-guess"></div>
+            <p> 热门搜索：
+<a href="/search?w=华为 Mate 30 5G">华为 Mate 30 5G</a>
+<a href="/search?w=iPhone 11">iPhone 11</a>
+<a href="/search?w=OPPO Reno 3">OPPO Reno 3</a>
+<a href="/search?w=vivo X30">vivo X30</a>
+<a href="/search?w=5G手机">5G手机</a>
+</p>
+            
+        </div>
+        <script>
+            var searchHistory = window.localStorage ? (localStorage.getItem("search") ? localStorage.getItem("search").split(",") : []) : [];
+            $(".search-box").focus(function () {
+                if ($(this).val()) {
+                    $(".search-guess").show();
+                    return;
+                }
+                if (Jiuji.user.isLogin()) {
+                    var localHistory = window.localStorage ? (localStorage.getItem("search") ? localStorage.getItem("search") : "") : "";
+                    $.ajax({
+                        url: "/api/common.aspx?act=searchHistory",
+                        data: { history: localHistory, t: Math.random() },
+                        dataType: "json",
+                        success: function (res) {
+                            if (res.status == 1) {
+                                searchHistory = res.result;
+                                showHistory();
+                                window.localStorage && localStorage.removeItem("search");//传完就把本地历史删除
+                            }
+                        }
+                    });
+                } else {
+                    showHistory();
+                }
+            });
+            if (Jiuji.user.isLogin()) {
+                //var localHistory = window.localStorage ? (localStorage.getItem("search") ? localStorage.getItem("search") : "") : "";
+                $.ajax({
+                    url: "/api/common.aspx?act=searchHistory",
+                    data: { history: '', t: Math.random() },
+                    dataType: "json",
+                    success: function (res) {
+                        if (res.status == 1) {
+                            searchHistory = res.result;
+                            if (res.result.length > 0) {
+                                $("#searchbox").attr("placeholder", res.result[0])
+                            }
+                        }
+                    }
+                });
+            };
+            /* $("#searchbox").focus(function () {
+                if ($(this).val() == '') {
+                    $(this).val($(this).attr("placeholder"));
+                }
+            }); */
+            function showHistory() {
+                if (searchHistory.length > 0) {
+                    var str = "";
+                    for (var i = 0; i < searchHistory.length; i++) {
+                        str += '<a href="/search?w=' + searchHistory[i] + '" class="border-bottom">' + searchHistory[i] + '</a>';
+                    }
+                    $(".search-history").show().find(".search-history-list").html(str);
+                }
+            };
+            var suggustTimer = null;
+            $(".search-box").keyup(function (e) {
+                if (e.keyCode == 38) {
+                    var item = $(".search-guess a");
+                    if (item.length > 0) {
+                        var i = $(".search-guess a.cur").index();
+                        i == -1 ? i = item.length - 1 : i--;
+                        item.eq(i).addClass("cur").siblings().removeClass("cur");
+                        $(".search-box").val(item.eq(i).find("span").text());
+                    }
+                    return;
+                }
+                if (e.keyCode == 40) {
+                    var item = $(".search-guess a");
+                    if (item.length > 0) {
+                        var i = $(".search-guess a.cur").index();
+                        i == item.length - 1 ? i = 0 : i++;
+                        item.eq(i).addClass("cur").siblings().removeClass("cur");
+                        $(".search-box").val(item.eq(i).find("span").text());
+                    }
+                    return;
+                }
+                var txt = $(this).val();
+                if (txt == "") {
+                    $(".search-guess").hide();
+                    $(".search-history").show();
+                } else {
+                    var data = { keyword: txt, count: 10 };
+                    clearTimeout(suggustTimer)
+                    suggustTimer = setTimeout(function () {
+                        $.ajax({
+                            url: "/web/api/search/recommendSearch/v1",
+                            data: data,
+                            dataType: "json",
+                            success: function (d) {
+                                var html = "";
+                                if (d.code == 0) {
+                                    for (var i = 0; i < d.data.length; i++) {
+                                        html += '<a class="border-bottom" href="/search?keyword=' + encodeURIComponent(d.data[i].name).replace("(", "%28").replace(")", "%29") + '&productId=' + d.data[i].productId + '"><i></i>' + (d.data[i].count > 0 ? ('<em>约' + d.data[i].count + '个商品</em>') : '') + '<span>' + d.data[i].name + '</span></a>';
+                                    }
+                                    $(".search-guess").html(html).show();
+                                    $(".search-history").hide();
+                                }
+                            }
+                        });
+                    }, 300)
+                }
+            });
+            function clearHistory() {
+                if (Jiuji.user.isLogin()) {
+                    $.ajax({
+                        url: "/api/common.aspx?act=clearSearchHistory",
+                        dataType: "json",
+                        success: function (res) {
+                            if (res.status == 1) {
+                                window.localStorage && localStorage.removeItem("search");
+                                $(".search-history").hide();
+                            } else {
+                                layer.open({ type: 2, time: 1.5 });
+                            }
+                        }
+                    });
+                } else {
+                    window.localStorage && localStorage.removeItem("search");
+                    $(".search-history").hide();
+                }
+            }
+            $(document).on("click", function () {
+                $(".search-history,.search-guess").hide();
+            });
+            $(document).on("click", ".search-history,.search-guess,.search-box", function (e) {
+                e.stopPropagation();
+            });
+            //判断是否为数组
+            function isArray(o) {
+                return Object.prototype.toString.call(o) == '[object Array]';
+            }
+            $(".search-form").submit(function () {
+                var w = $(".search-box");
+                w.val() == "" && w.val(w.attr("placeholder"));
+                let keyword = w.val()
+                if (Jiuji.user.isLogin()) {
+                    window.location.href = '/search?keyword=' + encodeURIComponent(keyword).replace("(", "%28").replace(")", "%29");
+                    return false;
+                }//如果登录就不存本地
+                if (!isArray(searchHistory)) { searchHistory = []; }
+                searchHistory.push(w.val());
+                if (searchHistory.length > 10) {
+                    searchHistory.splice(0, 1);
+                }
+                searchHistory = searchHistory.join(",");
+                window.localStorage && localStorage.setItem("search", searchHistory);
+                window.location.href = '/search?keyword=' + encodeURIComponent(keyword).replace("(", "%28").replace(")", "%29");
+                return false;
+            });
+        </script>
+
+        <div class="header-qrcode right">
+            <div class="header-cart">
+                <a href="/order/cart.aspx" class="header-cart-a">
+                    <svg version="1.1" role="presentation" width="16" height="14.222222222222221" viewBox="0 0 576 512" class="fa-icon" style="vertical-align: text-top;">
+                        <path d="M528.1 301.3L575.4 93.3C578.8 78.3 567.4 64 552 64H159.2L150 19.2C147.8 8 137.9 0 126.5 0H24C10.7 0 0 10.7 0 24V40C0 53.3 10.7 64 24 64H93.9L164.1 407.4C147.3 417.1 136 435.2 136 456 136 486.9 161.1 512 192 512S248 486.9 248 456C248 440.3 241.6 426.2 231.2 416H440.8C430.4 426.2 424 440.3 424 456 424 486.9 449.1 512 480 512S536 486.9 536 456C536 433.8 523.1 414.7 504.4 405.6L509.9 381.3C513.4 366.3 501.9 352 486.5 352H218.1L211.6 320H504.7C515.9 320 525.6 312.2 528.1 301.3z"></path><!----></svg>
+                    购物车
+                    <span>0</span>
+                </a>
+                <div class="header-cart-box">
+                    <iframe></iframe>
+                </div>
+            </div>
+            <script>
+                setTimeout(function () {
+                    Jiuji.user.getInfo(function (res) {
+                        $(".header-cart span").css('display', 'inline-block').text(res.cartCount);
+                    });
+                }, 1500);
+                $(".header-cart-a").hoverShow("cur", ".header-cart-box", function () {
+                    // if (!$(".header-cart-box iframe").attr('src')){
+                    $(".header-cart-box iframe").attr('src', '/order/cart.aspx?act=mini&from=header');
+                    // }
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<!--导航-->
+
+<div class="navigation">
+    <div class="wrapper relative">
+        <h3 class="nav-menu-cursor">全部商品分类</h3>
+        <div class="nav-menu">
+            
+            
+            <dl>
+                <dt>
+                    
+                    <b><i class="icon m2"></i><a title="手机通讯" href="/list/2-0-0-0-0-0-0-0-0-0-0-0-1.html">手机通讯</a><s>&gt;</s></b>
+                    <span>
+                         <a title="华为 Mate 30 5G版" href="https://www.yaya.cn/product/82194.html">华为 Mate 30 5G版</a> <a title="iPhone 11" href="https://www.yaya.cn/product/81727.html">iPhone 11</a> <a title="三星 Note 10+ 5G版" href="https://www.yaya.cn/product/80234.html">三星 Note 10+ 5G版</a> <a title="5G手机" href="https://www.yaya.cn/search?keyword=5G手机">5G手机</a>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="left">
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">热门品牌</h4>
+                            <p>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/2-7-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">华为</a>
+                                
+                                <a title="苹果" href="https://www.yaya.cn/list/2-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">苹果</a>
+                                
+                                <a title="荣耀" href="https://www.yaya.cn/list/2-1255-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">荣耀</a>
+                                
+                                <a title="小米" href="https://www.yaya.cn/list/2-9-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">小米</a>
+                                
+                                <a title="OPPO" href="https://www.yaya.cn/list/2-11-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">OPPO</a>
+                                
+                                <a title="vivo" href="https://www.yaya.cn/list/2-14-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">vivo</a>
+                                
+                                <a title="三星" href="https://www.yaya.cn/list/2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">三星</a>
+                                
+                                <a title="美图" href="https://www.yaya.cn/list/2-1155-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">美图</a>
+                                
+                                <a title="魅族" href="https://www.yaya.cn/list/2-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">魅族</a>
+                                
+                                <a title="一加" href="https://www.yaya.cn/list/2-1154-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">一加</a>
+                                
+                                <a title="努比亚" href="https://www.yaya.cn/list/2-1121-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">努比亚</a>
+                                
+                                <a title="realme" href="https://www.yaya.cn/list/2-1658-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">realme</a>
+                                
+                                <a title="全部手机" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1.html">全部手机</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">价位</h4>
+                            <p>
+                                
+                                <a title="0-599" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_0-599.html">0-599</a>
+                                
+                                <a title="600-999" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_600-999.html">600-999</a>
+                                
+                                <a title="1000-1999" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_1000-1999.html">1000-1999</a>
+                                
+                                <a title="2000-2999" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_2000-2999.html">2000-2999</a>
+                                
+                                <a title="3000-3999" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_3000-3999.html">3000-3999</a>
+                                
+                                <a title="4000-4999" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_4000-4999.html">4000-4999</a>
+                                
+                                <a title="5000以上" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1_5000-0.html">5000以上</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">网络制式</h4>
+                            <p>
+                                
+                                <a title="5G网络" href="https://www.yaya.cn/list/2-0-0-0-4122-0-0-0-4122-0-0-0-0-0-0-0-0-0-0-0_0.html">5G网络</a>
+                                
+                                <a title="4G全网通" href="https://www.yaya.cn/list/2-0-0-401-0-0-0-0-0-0-0-0-0-0-0-0_0.html">4G全网通</a>
+                                
+                                <a title="移动/联通双4G" href="https://www.yaya.cn/list/2-0-0-464_475-0-0-0-0-0-0-0-0-0-0-0-0-0_0-0.html">移动/联通双4G</a>
+                                
+                                <a title="联通4G" href="https://www.yaya.cn/list/2-0-0-475-0-0-0-0-0-0-0-0-0-0-0-0-1_0-0.html">联通4G</a>
+                                
+                                <a title="电信4G" href="https://www.yaya.cn/list/2-0-0-526-0-0-0-0-0-0-0-0-0-0-0-0-1_0-0.html">电信4G</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">产品特点</h4>
+                            <p>
+                                
+                                <a title="屏幕指纹识别" href="https://www.yaya.cn/list/2-0-3442-0-0-0-0-3392-0-0-0-0-0-0-0-0-0-0-0-0_0.html">屏幕指纹识别</a>
+                                
+                                <a title="面部识别解锁" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-3211-0-0-0-0-0-0-0-0-0-0-0-0_0.html">面部识别解锁</a>
+                                
+                                <a title="全面屏" href="https://www.yaya.cn/list/2-0-0-0-3210-0-0-3210-0-0-0-0-0-0-0-0-0-0-0-0_0.html">全面屏</a>
+                                
+                                <a title="快速充电" href="https://www.yaya.cn/list/2-0-0-0-0-1896-0-0-0-0-0-0-1896-0-0-0-0-0-0-0_0.html">快速充电</a>
+                                
+                                <a title="无线充电" href="https://www.yaya.cn/list/2-0-0-0-0-1896-0-3356-0-0-0-0-0-0-0-0-0-0-0-0_0.html">无线充电</a>
+                                
+                                <a title="液冷散热" href="https://www.yaya.cn/list/2-0-0-0-0-1896-0-3949-0-0-0-0-0-0-0-0-0-0-0-0_0.html">液冷散热</a>
+                                
+                                <a title="双卡双待" href="https://www.yaya.cn/list/2-0-0-0-397-1896-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">双卡双待</a>
+                                
+                                <a title="支持NFC" href="https://www.yaya.cn/list/2-0-0-0-0-0-0-3947-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">支持NFC</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">热销机型</h4>
+                            <p>
+                                
+                                <a title="华为 Mate 30 5G版" href="https://www.yaya.cn/product/82194.html">华为 Mate 30 5G版</a>
+                                
+                                <a title="iPhone 11" href="https://www.yaya.cn/product/81727.html">iPhone 11</a>
+                                
+                                <a title="华为 P30 Pro" href="https://www.yaya.cn/product/75335.html">华为 P30 Pro</a>
+                                
+                                <a title="vivo iQOO Pro 5G版" href="https://www.yaya.cn/product/80638.html">vivo iQOO Pro 5G版</a>
+                                
+                                <a title="荣耀9X" href="https://www.yaya.cn/product/78918.html">荣耀9X</a>
+                                
+                                <a title="红米Note 8 Pro" href="https://www.yaya.cn/product/81016.html">红米Note 8 Pro</a>
+                                
+                                <a title="iPhone 11 Pro Max" href="https://www.yaya.cn/product/81723.html">iPhone 11 Pro Max</a>
+                                
+                                <a title="OPPO Reno 2" href="https://www.yaya.cn/product/80809.html">OPPO Reno 2</a>
+                                
+                                <a title="一加手机 7T" href="https://www.yaya.cn/product/82837.html">一加手机 7T</a>
+                                
+                                <a title="华为 畅享10 Plus" href="https://www.yaya.cn/product/80869.html">华为 畅享10 Plus</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">售后维修</h4>
+                            <p>
+                                
+                                <a title="手机维修" href="https://www.yaya.cn/shouhou/">手机维修</a>
+                                
+                                <a title="维修配件价格" href="https://www.yaya.cn/help/13594.html">维修配件价格</a>
+                                
+                                <a title="丫丫服务" href="https://www.yaya.cn/help/13528.html">丫丫服务</a>
+                                
+                                <a title="电池快修" href="https://www.yaya.cn/after-service/selPhone?cid=2&bid=1&faultId=2">电池快修</a>
+                                
+                                <a title="显示屏快修" href="https://www.yaya.cn/after-service/selPhone?cid=2&bid=1&faultId=7">显示屏快修</a>
+                                
+                            </p>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="right">
+                        <div class="menu_ad">
+                            
+                            <a href="https://www.yaya.cn/product/82185.html" title="OPPO A11">
+                                <img src="https://img2.ch999img.com/newstatic/1530/0151578e25816f97.jpg" width="200" height="230" /></a>
+                            
+                            <a href="https://www.yaya.cn/product/81745.html" title="iPhone 11 Pro Max ">
+                                <img src="https://img2.ch999img.com/newstatic/1527/0151577d91d47665.jpg" width="200" height="230" /></a>
+                            
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+            
+            <dl>
+                <dt>
+                    
+                    <b><i class="icon m9"></i><a title="智能家居" href="/list/144-0-0-0-0-1.html" style="margin-right: 0;">智能家居</a>/<a title="智能健康" href="/list/316-0-0-0-0-1.html">智能健康</a><s>&gt;</s></b>
+                    <span>
+                         <a title="智能电视" href="https://www.yaya.cn/list/160-0-0-0-0-0-0-1.html">智能电视</a> <a title="加湿器" href="https://www.yaya.cn/list/313-0-2309-0-0-0-0_0.html">加湿器</a> <a title="电动牙刷" href="https://www.yaya.cn/list/319-0-2949-0-0-0-0_0.html">电动牙刷</a> <a title="插座" href="https://www.yaya.cn/list/156-0-4238-0-0-0-0_0.html">插座</a> <a title="智能安防" href="https://www.yaya.cn/list/314.html">智能安防</a>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="left">
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">热门品牌</h4>
+                            <p>
+                                
+                                <a title="荣耀" href="https://www.yaya.cn/list/86-1255-0-0-0-1.html">荣耀</a>
+                                
+                                <a title="小米" href="https://www.yaya.cn/list/86-9-0-0-0-1_0-0.html">小米</a>
+                                
+                                <a title="乐心" href="https://www.yaya.cn/list/316-1197-0-0-0-1.html">乐心</a>
+                                
+                                <a title="南极人" href="https://www.yaya.cn/list/86-1477-0-0-0-1.html">南极人</a>
+                                
+                                <a title="飞利浦" href="https://www.yaya.cn/list/319-15-0-0-0-0-1_0-0.html">飞利浦</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="生活周边" href="https://www.yaya.cn/list/156-0-0-0-0-0-1.html">生活周边</a></h4>
+                            <p>
+                                
+                                <a title="电子烟" href="https://www.yaya.cn/list/156-0-4289-0-0-0-0_0.html">电子烟</a>
+                                
+                                <a title="路由器" href="https://www.yaya.cn/list/95-0-0-0-0-0-0-0-0-0-1.html">路由器</a>
+                                
+                                <a title="插座" href="https://www.yaya.cn/list/156-0-4238-0-0-0-0_0.html">插座</a>
+                                
+                                <a title="电池" href="https://www.yaya.cn/list/156-0-2932-0-0-0-1_0-0.html">电池</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能电器" href="https://www.yaya.cn/list/313-0-0-0-0-0-1.html">智能电器</a></h4>
+                            <p>
+                                
+                                <a title="加湿器" href="https://www.yaya.cn/list/313-0-2309-0-0-0-1.html">加湿器</a>
+                                
+                                <a title="灯光照明" href="https://www.yaya.cn/list/313-0-2308-0-0-0-1.html">灯光照明</a>
+                                
+                                <a title="榨汁机" href="https://www.yaya.cn/list/313-0-3925-0-0-0-0_0.html">榨汁机</a>
+                                
+                                <a title="扫地机器人" href="https://www.yaya.cn/list/313-0-2671-0-0-0-1.html">扫地机器人</a>
+                                
+                                <a title="厨房小电" href="https://www.yaya.cn/list/313-0-2660-0-0-0-1.html">厨房小电</a>
+                                
+                                <a title="除螨仪" href="https://www.yaya.cn/list/313-0-3927-0-0-0-0_0.html">除螨仪</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="电视/盒子" href="https://www.yaya.cn/list/96-0-0-0-0-0_0.html">电视/盒子</a></h4>
+                            <p>
+                                
+                                <a title="华为智慧屏" href="https://www.yaya.cn/list/160-7-0-0-0-0-0-0-0-0-0-0-0_0.html">华为智慧屏</a>
+                                
+                                <a title="荣耀智慧屏" href="https://www.yaya.cn/list/160-1255-0-0-0-0-0-0-0-0-0-0-0_0.html">荣耀智慧屏</a>
+                                
+                                <a title="小米电视" href="https://www.yaya.cn/list/160-9-0-0-0-0-0-1.html">小米电视</a>
+                                
+                                <a title="小米盒子" href="https://www.yaya.cn/list/96-9-0-0-0-0-1.html">小米盒子</a>
+                                
+                                <a title="荣耀盒子" href="https://www.yaya.cn/product/46281.html">荣耀盒子</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能安防" href="https://www.yaya.cn/list/314-0-0-0-0-0-1.html">智能安防</a></h4>
+                            <p>
+                                
+                                <a title="智能门锁" href="https://www.yaya.cn/list/314-0-2304-0-0-0_0.html">智能门锁</a>
+                                
+                                <a title="智能摄像头" href="https://www.yaya.cn/list/466.html">智能摄像头</a>
+                                
+                                <a title="电子猫眼/门铃" href="https://www.yaya.cn/list/314-0-3244-0-0-0-1.html">电子猫眼/门铃</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能健康" href="https://www.yaya.cn/list/316-0-0-0-0-1.html">智能健康</a></h4>
+                            <p>
+                                
+                                <a title="电动牙刷" href="https://www.yaya.cn/list/319-0-2949-0-0-0-1_0-0.html">电动牙刷</a>
+                                
+                                <a title="剃须刀" href="https://www.yaya.cn/list/319-0-2948-0-0-0-0_0.html">剃须刀</a>
+                                
+                                <a title="体脂秤" href="https://www.yaya.cn/list/318-0-3675-0-0-0-0_0.html">体脂秤</a>
+                                
+                                <a title="按摩设备" href="https://www.yaya.cn/list/395-0-0-0-0-0_0.html">按摩设备</a>
+                                
+                            </p>
+                        </div>
+                        
+
+                        
+                    </div>
+                    <div class="right">
+                        <div class="menu_ad">
+                            
+                            
+                            <a href="https://www.yaya.cn/product/76630.html" title="乐物MFI认证快充线">
+                                <img src="https://img2.ch999img.com/newstatic/1526/015157f97fb68f5e.jpg" width="200" height="230" /></a>
+                            
+                            <a href="https://www.yaya.cn/product/78353.html" title="乐物PD+QC 双口快充电头">
+                                <img src="https://img2.ch999img.com/newstatic/1530/0151580d69d352eb.jpg" width="200" height="230" /></a>
+                            
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+            
+            <dl>
+                <dt>
+                    <b><i class="icon m4"></i><a title="智能穿戴" href="/list/99-0-0-0-0-1.html" style="margin-right: 0;">智能穿戴</a>/<a title="智能出行" href="/list/194-0-0-0-0-1.html">智能出行</a><s>&gt;</s></b>
+                    <span>
+                         <a title="智能手环" href="https://www.yaya.cn/list/146-0-0-0-0-0_0.html">智能手环</a> <a title="智能手表" href="https://www.yaya.cn/list/145-0-0-0-0-0_0.html">智能手表</a> <a title="儿童手表" href="https://www.yaya.cn/list/372-0-0-0-0-0_0.html">儿童手表</a> <a title="车载充电器" href="https://www.yaya.cn/list/373-0-0-0-0-0-0_0.html">车载充电器</a> <a title="车载支架" href="https://www.yaya.cn/list/401-0-0-0-0-0_0.html">车载支架</a>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="left">
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">热门品牌</h4>
+                            <p>
+                                
+                                <a title="苹果" href="https://www.yaya.cn/list/99-1-0-0-0-1.html">苹果</a>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/99-7-0-0-0-1.html">华为</a>
+                                
+                                <a title="小米" href="https://www.yaya.cn/list/99-9-0-0-0-1.html">小米</a>
+                                
+                                <a title="小天才" href="https://www.yaya.cn/list/99-1247-0-0-0-1.html">小天才</a>
+                                
+                                <a title="AMAZFIT" href="https://www.yaya.cn/list/99-1551-0-0-0-1.html">AMAZFIT</a>
+                                
+                                <a title="三星" href="https://www.yaya.cn/list/99-2-0-0-0-1.html">三星</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能手环" href="https://www.yaya.cn/list/146-0-0-0-0-0_0.html">智能手环</a></h4>
+                            <p>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/146-7-0-0-0-0-1.html">华为</a>
+                                
+                                <a title="荣耀" href="https://www.yaya.cn/list/146-1255-0-0-0-0-1.html">荣耀</a>
+                                
+                                <a title="小米" href="https://www.yaya.cn/list/146-9-0-0-0-0-1.html">小米</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能手表" href="https://www.yaya.cn/list/145-0-0-0-0-0-1.html">智能手表</a></h4>
+                            <p>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/145-7-0-0-0-0_0.html">华为</a>
+                                
+                                <a title="苹果" href="https://www.yaya.cn/list/145-1-0-0-0-0_0.html">苹果</a>
+                                
+                                <a title="荣耀" href="https://www.yaya.cn/list/145-1255-0-0-0-0-0-0-0-0-0-0-0_0.html">荣耀</a>
+                                
+                                <a title="三星" href="https://www.yaya.cn/list/145-2-0-0-0-0_0.html">三星</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="儿童手表" href="https://www.yaya.cn/list/372-0-0-0-0-0_0.html">儿童手表</a></h4>
+                            <p>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/372-9_7-0-0-0-0-0-0-0-0-0_0.html">华为</a>
+                                
+                                <a title="小天才" href="https://www.yaya.cn/list/372-9_1247-0-0-0-0-0-0-0-0-0_0.html">小天才</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="智能车载" href="https://www.yaya.cn/list/396-0-0-0-0-0-1.html">智能车载</a></h4>
+                            <p>
+                                
+                                <a title="车载支架" href="https://www.yaya.cn/list/401-0-0-0-2692-0-0-0-0_0.html">车载支架</a>
+                                
+                                <a title="车载蓝牙" href="https://www.yaya.cn/list/114-0-0-3218-3009-0-0-0_0.html">车载蓝牙</a>
+                                
+                                <a title="车载充电器" href="https://www.yaya.cn/list/373-0-0-0-0-0-0_0.html">车载充电器</a>
+                                
+                                <a title="行车记录仪" href="https://www.yaya.cn/list/399-0-0-0-0-0-0_0.html">行车记录仪</a>
+                                
+                            </p>
+                        </div>
+                        
+
+                        <!--<div class="nav-menu-brand">
+                            <a href="javascript:;" class="crossroller_prev">&lt;</a>
+                            <div class="mbroll_box">
+                                <ul>
+                                    <li><a href="/list/42-46-0-0-0-0-0-0-0-0-1.html" title="捷波朗"><img src="//img2.yaya.cn/static/images/brand/ddc/jiebol.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/list/210-1393-0-0-0-0-1.html" title="小牛电动"><img src="//img2.yaya.cn/static/images/brand/ddc/xiaoniu.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/search?w=乐行天下&pId=" title="乐行天下"><img src="//img2.yaya.cn/static/images/brand/ddc/lextx.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/list/365-9-0-0-0-0-1.html" title="小米"><img src="//img2.yaya.cn/static/images/brand/ddc/xiaomi.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/list/399-1294-0-0-0-0-0-1.html" title="360"><img src="//img2.yaya.cn/static/images/brand/ddc/brand_360.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/list/210-1406-0-0-0-0-1.html" title="沃趣"><img src="//img2.yaya.cn/static/images/brand/ddc/woqu.jpg" width="90" height="45" /></a></li>
+                                    <li><a href="/product/42042.html" title="轻客"><img src="//img2.yaya.cn/static/images/brand/ddc/qingke.jpg" width="90" height="45" /></a></li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="crossroller_next">&gt;</a>
+                        </div>-->
+                    </div>
+                    <div class="right">
+                        <div class="menu_ad">
+                            
+                            
+                            <a href="https://www.yaya.cn/product/54242.html" title="macbook">
+                                <img src="https://img2.ch999img.com/newstatic/1528/0151b7e1a739065b.jpg" width="200" height="230" /></a>
+                            
+                            <a href="https://www.yaya.cn/product/81279.html" title="xiaomi ">
+                                <img src="https://img2.ch999img.com/newstatic/1529/0151b7f061db72af.jpg" width="200" height="230" /></a>
+                            
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+            
+            <dl>
+                <dt>
+                    
+                    <b><i class="icon m1"></i><a title="手机配件" href="/list/4-0-0-0-0-1.html">手机配件</a><s>&gt;</s></b>
+                    <span>
+                         <a title="移动电源" href="https://www.yaya.cn/list/41-0-0-0-0-0-0_0.html">移动电源</a> <a title="钢化膜" href="https://www.yaya.cn/list/63-0-0-0-0-0-0_0.html">钢化膜</a> <a title="保护壳" href="https://www.yaya.cn/list/43-0-0-0-0-0-0_0.html">保护壳</a> <a title="数据线" href="https://www.yaya.cn/list/66-0-0-0-0-0-0-0_0.html">数据线</a> <a title="手机耳机" href="https://www.yaya.cn/list/12-0-0-0-0-0-0-0-0_0.html">手机耳机</a> <a title="充电器" href="https://www.yaya.cn/list/65-0-0-0-0-0_0.html">充电器</a>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="left">
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="保护壳" href="https://www.yaya.cn/list/43-0-0-0-0-0-0_0.html">保护壳</a></h4>
+                            <p>
+                                
+                                <a title="华为保护壳" href="https://www.yaya.cn/list/464.html">华为保护壳</a>
+                                
+                                <a title="苹果保护壳" href="https://www.yaya.cn/list/217-0-0-0-0-0-0-0-1.html">苹果保护壳</a>
+                                
+                                <a title="荣耀保护壳" href="https://www.yaya.cn/list/218-0-3286-0-0-0-0-0-1.html">荣耀保护壳</a>
+                                
+                                <a title="三星保护壳" href="https://www.yaya.cn/list/218-0-1643-0-0-0-0-0-1.html">三星保护壳</a>
+                                
+                                <a title="OPPO保护壳" href="https://www.yaya.cn/list/218-0-1645-0-0-0-0-0-1_0-0.html">OPPO保护壳</a>
+                                
+                                <a title="vivo保护壳" href="https://www.yaya.cn/list/218-0-1644-0-0-0-0-0-1_0-0.html">vivo保护壳</a>
+                                
+                                <a title="小米保护壳" href="https://www.yaya.cn/list/218-0-1641-0-0-0-0-0-1_0-0.html">小米保护壳</a>
+                                
+                                <a title="魅族保护壳" href="https://www.yaya.cn/list/218-0-1642-0-0-0-0-0-1_0-0.html">魅族保护壳</a>
+                                
+                                <a title="平板保护壳" href="https://www.yaya.cn/list/385-0-0-0-0-0-0-0-0-0-1.html">平板保护壳</a>
+                                
+                                <a title="其他" href="https://www.yaya.cn/list/43-0-0-0-0-0_0.html">其他</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="保护膜" href="https://www.yaya.cn/list/63-0-0-0-0-0-0_0.html">保护膜</a></h4>
+                            <p>
+                                
+                                <a title="苹果保护膜" href="https://www.yaya.cn/list/219-0-0-0-0-0-0-1.html">苹果保护膜</a>
+                                
+                                <a title="华为保护膜" href="https://www.yaya.cn/list/465.html">华为保护膜</a>
+                                
+                                <a title="荣耀保护膜" href="https://www.yaya.cn/list/220-0-0-3287-0-0-0-1.html">荣耀保护膜</a>
+                                
+                                <a title="三星保护膜" href="https://www.yaya.cn/list/220-0-0-1670-0-0-0-1_0-0.html">三星保护膜</a>
+                                
+                                <a title="OPPO保护膜" href="https://www.yaya.cn/list/220-0-0-1672-0-0-0-1_0-0.html">OPPO保护膜</a>
+                                
+                                <a title="vivo保护膜" href="https://www.yaya.cn/list/220-0-0-1671-0-0-0-1_0-0.html">vivo保护膜</a>
+                                
+                                <a title="小米保护膜" href="https://www.yaya.cn/list/220-0-0-1668-0-0-0-1_0-0.html">小米保护膜</a>
+                                
+                                <a title="魅族保护膜" href="https://www.yaya.cn/list/220-0-0-1669-0-0-0-1_0-0.html">魅族保护膜</a>
+                                
+                                <a title="平板保护膜" href="https://www.yaya.cn/list/386.html">平板保护膜</a>
+                                
+                                <a title="其他" href="https://www.yaya.cn/list/63.html">其他</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="数据线" href="https://www.yaya.cn/list/66-0-0-0-0-0-0-0_0.html">数据线</a></h4>
+                            <p>
+                                
+                                <a title="快充数据线" href="https://www.yaya.cn/list/66-0-0-3961-0-0-0-0_0.html">快充数据线</a>
+                                
+                                <a title="苹果数据线" href="https://www.yaya.cn/list/66-0-0-1890-0-0-0-0_0.html">苹果数据线</a>
+                                
+                                <a title="MFI认证线" href="https://www.yaya.cn/list/66-0-0-3291-3291-0-0-0-0_0.html">MFI认证线</a>
+                                
+                                <a title="安卓Type-C数据线" href="https://www.yaya.cn/list/66-0-0-1891-0-0-0-0_0.html">安卓Type-C数据线</a>
+                                
+                                <a title="安卓Micro数据线" href="https://www.yaya.cn/list/66-0-0-1894-0-0-0-0_0.html">安卓Micro数据线</a>
+                                
+                                <a title="多合一数据线" href="https://www.yaya.cn/list/66-0-0-2475-0-0-0-0_0.html">多合一数据线</a>
+                                
+                                <a title="转接头" href="https://www.yaya.cn/list/66-0-0-1893-0-0-0-0_0.html">转接头</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="移动电源" href="https://www.yaya.cn/list/41-0-0-0-0-0-0_0.html">移动电源</a></h4>
+                            <p>
+                                
+                                <a title="超轻薄" href="https://www.yaya.cn/list/41-0-0-4022-0-0-0-0-0-0_0.html">超轻薄</a>
+                                
+                                <a title="双向快充" href="https://www.yaya.cn/list/41-0-0-4016-0-0-0-0-0-0_0.html">双向快充</a>
+                                
+                                <a title="自带线" href="https://www.yaya.cn/list/41-0-0-4020-0-0-0-0-0-0_0.html">自带线</a>
+                                
+                                <a title="无线输出" href="https://www.yaya.cn/list/41-0-0-4018-0-0-0-0-0-0_0.html">无线输出</a>
+                                
+                                <a title="苹果输入" href="https://www.yaya.cn/list/41-0-0-3529-0-0-0-0-0-0_0.html">苹果输入</a>
+                                
+                                <a title="Type-C输入" href="https://www.yaya.cn/list/41-0-0-3530-0-0-0-0-0-0_0.html">Type-C输入</a>
+                                
+                                <a title="安卓Micro输入" href="https://www.yaya.cn/list/41-0-0-3528-0-0-0-0-0-0_0.html">安卓Micro输入</a>
+                                
+                                <a title="单口输出" href="https://www.yaya.cn/list/41-0-0-4017-0-0-0-0-0-0_0.html">单口输出</a>
+                                
+                                <a title="多口输出" href="https://www.yaya.cn/list/41-0-0-4019-0-0-0-0-0-0_0.html">多口输出</a>
+                                
+                                <a title="电量数字显示" href="https://www.yaya.cn/list/41-0-0-4021-0-0-0-0-0-0_0.html">电量数字显示</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="充电器" href="https://www.yaya.cn/list/65-0-0-0-0-0_0.html">充电器</a></h4>
+                            <p>
+                                
+                                <a title="无线充电器" href="https://www.yaya.cn/list/65-0-0-3096-0-0-0-1_0-0.html">无线充电器</a>
+                                
+                                <a title="快充充电器" href="https://www.yaya.cn/list/65-0-0-3101-0-0-0-1.html">快充充电器</a>
+                                
+                                <a title="多口充电器" href="https://www.yaya.cn/list/65-0-3259-0-0-0-0-1_0-0.html">多口充电器</a>
+                                
+                                <a title="单口充电器" href="https://www.yaya.cn/list/65-0-1942-0-0-0-0-1.html">单口充电器</a>
+                                
+                                <a title="车载充电器" href="https://www.yaya.cn/list/373.html">车载充电器</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="手机耳机" href="https://www.yaya.cn/list/12-0-0-0-0-0-0-0-0_0.html">手机耳机</a></h4>
+                            <p>
+                                
+                                <a title="华为耳机" href="https://www.yaya.cn/list/12-7-0-0-0-0-0-0-0-1.html">华为耳机</a>
+                                
+                                <a title="苹果耳机" href="https://www.yaya.cn/list/12-1-0-0-0-0-0-0-0-1.html">苹果耳机</a>
+                                
+                                <a title="荣耀耳机" href="https://www.yaya.cn/list/12-1255-0-0-0-3292-0-1.html">荣耀耳机</a>
+                                
+                                <a title="小米耳机" href="https://www.yaya.cn/list/12-9-0-0-0-0-0-0-0-1.html">小米耳机</a>
+                                
+                                <a title="三星耳机" href="https://www.yaya.cn/list/12-2-0-0-0-0-0-0-0-1.html">三星耳机</a>
+                                
+                                <a title="OPPO耳机" href="https://www.yaya.cn/list/12-11-0-0-0-0-0-0-0-1.html">OPPO耳机</a>
+                                
+                                <a title="vivo耳机" href="https://www.yaya.cn/list/12-14-0-0-0-0-0-0_0.html">vivo耳机</a>
+                                
+                                <a title="一加耳机" href="https://www.yaya.cn/list/12-77_1154-0-0-0-0-0-0_0.html">一加耳机</a>
+                                
+                            </p>
+                        </div>
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange"><a title="手机周边" href="https://www.yaya.cn/list/44-0-0-0-0-0-0-0.html">手机周边</a></h4>
+                            <p>
+                                
+                                <a title="存储卡" href="https://www.yaya.cn/list/44-0-441-0-0-0-0-0-0_0.html">存储卡</a>
+                                
+                                <a title="指环扣/支架" href="https://www.yaya.cn/list/44-0-4232-0-0-0-0-0-0_0.html">指环扣/支架</a>
+                                
+                                <a title="自拍杆" href="https://www.yaya.cn/list/44-0-4233-0-0-0-0-0-0_0.html">自拍杆</a>
+                                
+                                <a title="读卡器" href="https://www.yaya.cn/list/44-0-442-0-0-0-0-0-0_0.html">读卡器</a>
+                                
+                                <a title="触控笔" href="https://www.yaya.cn/list/44-0-4111-0-0-0-0-0-0_0.html">触控笔</a>
+                                
+                            </p>
+                        </div>
+                        
+
+                        
+                    </div>
+                    <div class="right">
+                        <div class="menu_ad">
+                            
+                            
+                            <a href="https://www.yaya.cn/product/85157.html" title="艾优 Superme 电动牙刷">
+                                <img src="https://img2.ch999img.com/newstatic/1529/01515639437ff016.jpg" width="200" height="230" /></a>
+                            
+                            <a href="https://www.yaya.cn/product/83193.html" title="圣诞 暖手宝">
+                                <img src="https://img2.ch999img.com/newstatic/1526/015156439b4fbd5f.jpg" width="200" height="230" /></a>
+                            
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+            
+            <dl>
+                <dt>
+                    
+                    <b><i class="icon m3"></i><a title="电脑办公" href="/list/8-0-0-0-0-1.html">电脑办公</a><s>&gt;</s></b>
+                    <span>
+                         <a title="iPad" href="https://www.yaya.cn/list/21-1-0-0-0-0-0-0-0-0-0_0.html">iPad</a> <a title="轻薄本" href="https://www.yaya.cn/list/20-0-4271-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">轻薄本</a> <a title="游戏本" href="https://www.yaya.cn/list/20-0-4272-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">游戏本</a> <a title="路由器" href="https://www.yaya.cn/list/95.html">路由器</a> <a title="键盘/鼠标" href="https://www.yaya.cn/list/120.html">键盘/鼠标</a> <a title="U盘" href="https://www.yaya.cn/list/202.html">U盘</a>
+                    </span>
+                </dt>
+                <dd>
+                    <div class="left">
+                        
+                        <div class="nav-menu-item">
+                            <h4 class="orange">电脑</h4>
+                            <p>
+                                
+                                <a title="苹果" href="https://www.yaya.cn/list/20-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">苹果</a>
+                                
+                                <a title="华为" href="https://www.yaya.cn/list/20-7-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">华为</a>
+                                
+                                <a title="荣耀" href="https://www.yaya.cn/list/20-1255-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">荣耀</a>
+                                
+                                <a title="联想" href="https://www.yaya.cn/list/20-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">联想</a>
+                                
+                                <a title="小米" href="https://www.yaya.cn/list/20-9-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">小米</a>
+                                
+                                <a title="华硕" href="https://www.yaya.cn/list/20-68-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">华硕</a>
+                                
+                                <a title="戴尔" href="https://www.yaya.cn/list/20-71-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">戴尔</a>
+                                
+                                <a title="惠普" href="https://www.yaya.cn/list/20-70_67-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0_0.html">惠普</a>
+                                
+                           

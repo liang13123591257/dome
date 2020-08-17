@@ -1,0 +1,120 @@
+[{
+    "title1": "手机精品汇",
+    "title2": "大牌手机 品质保障",
+    "bsrc": "https://img2.yaya.cn/newstatic/1380/0150a90c3397a65e.jpg.webp",
+    "msrcarr": [{
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190911103416335.jpg.webp",
+        "title": "Apple iPhone 11 全网通",
+        "price": "￥5930"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191106095012433.jpg.webp",
+        "title": "华为 Mate 30 Pro 全网通5G版",
+        "price": "￥6899"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191206185421890.jpg.webp",
+        "title": "iPhone XR全网通版",
+        "price": "￥4650"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为 Mate 20 X 5G版",
+        "price": "￥4599"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为 荣耀9X Pro 全网通版",
+        "price": "￥1999"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "OPPO A9x 全网通版",
+        "price": "￥1398"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为 畅享9 Plus 全网通版",
+        "price": "￥1399"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "vivo U3x 全网通版",
+        "price": "￥998"
+    }]
+
+}, 
+{
+    "title1": "电脑办公专家",
+    "title2": "一个极客的诞生",
+    "bsrc": "https://img2.yaya.cn/newstatic/1380/0150a95ba2904ac3.jpg.webp",
+    "msrcarr": [{
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190318231549644.jpg.webp",
+        "title": "iPad mini 2019款 7.9 英寸 WiFi版",
+        "price": "￥2699"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20190917161838344.jpg.webp",
+        "title": "联想 小新 Air 14",
+        "price": "￥3899"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191108111258948.jpg.webp",
+        "title": "昕科 超大加热暖桌垫鼠标垫 智能款Pro",
+        "price": "￥89"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "小米 RedmiBook 14英寸",
+        "price": "￥4499"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为 WS6500 路由器千兆版",
+        "price": "￥199"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华硕 VG278QR 显示器",
+        "price": "￥1950"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "Comma 爱玛系列电脑包",
+        "price": "￥119"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "绿联 Type-C扩展坞",
+        "price": "￥298"
+    }]
+}, 
+
+{
+    "title1": "数码新视界",
+    "title2": "智能潮货 嗨购不停",
+    "bsrc": "https://img2.yaya.cn/newstatic/1377/0150a997c820c467.jpg.webp",
+    "msrcarr": [{
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191024092055136.jpg.webp",
+        "title": "华为 FreeBuds 3 无线蓝牙耳机",
+        "price": "￥1199"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191205165555883.jpg.webp",
+        "title": "华为 智能体脂秤2 Pro",
+        "price": "￥499"
+    }, {
+        "src": "https://img2.yaya.cn/pic/product/440x440/20191205170413979.jpg.webp",
+        "title": "华为手环4 Pro",
+        "price": "￥399"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为FreeBuds 悦享版",
+        "price": "￥379"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为手环3",
+        "price": "￥219"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "大疆 Osmo Action 灵眸运动相机",
+        "price": "￥2499"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "华为 智能AI音箱mini",
+        "price": "￥229"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "小度在家1C",
+        "price": "￥499"
+    }, {
+        "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "title": "小米 小爱老师",
+        "price": "￥499"
+    }]
+}]
