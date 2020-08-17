@@ -1,0 +1,29 @@
+.form {
+    width: 360px;
+    padding: 30px 70px 30px 30px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 180px auto;
+    border-radius: 30px;
+}
+
+.login_form {
+    position: absolute;
+    width: 99%;
+    height: 98%;
+    background: url("../../assets/image/loginBG2.jpg") no-repeat;
+    background-size: 100% 105%;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* font-weight: lighter; */
+}
+
+.el-form-item__content button {
+    display: block;
+    width: 78px;
+    float: left;
+}
